@@ -10,18 +10,56 @@
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Music_Gameplay" ID="{1034E688-3D33-4981-8CAE-FB880DEA5428}" WorkUnitID="{CA4A36B3-EBE4-467E-8A0A-1D02A96903A4}"/>
+							<ObjectRef Name="Trees" ID="{E4FAC9B8-779F-4088-83A7-83F18F00AD29}" WorkUnitID="{CA4A36B3-EBE4-467E-8A0A-1D02A96903A4}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Camera_Zoom_In" ID="{784D53A6-8DEC-44F3-9E7E-A05149F6C40B}" WorkUnitID="{CA4A36B3-EBE4-467E-8A0A-1D02A96903A4}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Music" ID="{1034E688-3D33-4981-8CAE-FB880DEA5428}" WorkUnitID="{CA4A36B3-EBE4-467E-8A0A-1D02A96903A4}"/>
 							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="UI_Hover" ID="{38132331-2BC4-4183-BBFE-D61E0FB03BED}" WorkUnitID="{CA4A36B3-EBE4-467E-8A0A-1D02A96903A4}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Camera_Zoom_Out" ID="{6BA1CDA1-66F4-42F3-8285-BEB1DD8F3AD3}" WorkUnitID="{CA4A36B3-EBE4-467E-8A0A-1D02A96903A4}"/>
+							<Position X="1" Y="2"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Footsteps" ID="{64D8363B-862D-4591-99EE-A0ED28ECE0E6}" WorkUnitID="{CA4A36B3-EBE4-467E-8A0A-1D02A96903A4}"/>
 							<Position X="2" Y="0"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="UI_Play" ID="{1189BEDD-05EF-4428-9950-6DAC694499E3}" WorkUnitID="{CA4A36B3-EBE4-467E-8A0A-1D02A96903A4}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Shovel_Digging" ID="{50B0E62D-68A7-4117-80CB-52CB18DDE6EE}" WorkUnitID="{CA4A36B3-EBE4-467E-8A0A-1D02A96903A4}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Photo_Quest" ID="{47E4A414-211A-4BAC-A3D2-9C90A6DF9D6C}" WorkUnitID="{CA4A36B3-EBE4-467E-8A0A-1D02A96903A4}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Shovel_Take" ID="{08578F06-F3F8-4131-9FE4-E9B76F7DB097}" WorkUnitID="{CA4A36B3-EBE4-467E-8A0A-1D02A96903A4}"/>
+							<Position X="4" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Photo_Random" ID="{497B5E21-68BB-469F-8E2F-E4843EF68896}" WorkUnitID="{CA4A36B3-EBE4-467E-8A0A-1D02A96903A4}"/>
+							<Position X="4" Y="1"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>
-					<CurrentStateList ShowAll="true"/>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Time_Capsule" ID="{E61D5C22-D9DC-4CDE-96C1-9991DDC4F242}"/>
+					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Sand" ID="{C404A128-F3DC-47D3-91B2-FD908113CB1F}"/>
+						<CurrentSwitchRef Name="Grass" ID="{ABA5116E-8369-41B3-BEC1-EBB4A0F67356}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>

@@ -11,12 +11,12 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="4204904655">
+		<SoundBank Id="1355168291" Language="SFX" Hash="1255797451">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="3340989877">
+		<SoundBank Id="3161908922" Language="SFX" Hash="1414322434">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -415,13 +415,38 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="620878633" Name="Music_Gameplay" ObjectPath="\Events\Default Work Unit\Music_Gameplay" DurationType="Infinite">
+				<Event Id="3991942870" Name="Music" ObjectPath="\Events\Default Work Unit\Music" DurationType="Infinite">
 					<IncludedMemoryFiles>
+						<File Id="301917649" Language="SFX">
+							<ShortName>MUS_Time_Capsule.wav</ShortName>
+							<Path>SFX\MUS_Time_Capsule_D79FB2B7.wem</Path>
+						</File>
 						<File Id="462006637" Language="SFX">
 							<ShortName>MUS_Music_Pad_and_Melody.wav</ShortName>
 							<Path>SFX\MUS_Music_Pad_and_Melody_D79FB2B7.wem</Path>
 						</File>
+						<File Id="481739544" Language="SFX">
+							<ShortName>MUS_Menu.wav</ShortName>
+							<Path>SFX\MUS_Menu_D79FB2B7.wem</Path>
+						</File>
 					</IncludedMemoryFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{421F0B6B-A8C9-4B31-B3CB-D06603557F19}">
+							<Media>
+								<File Id="462006637"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{487E3EED-6A71-419B-9135-EC5923B7B7FB}">
+							<Media>
+								<File Id="481739544"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{E61D5C22-D9DC-4CDE-96C1-9991DDC4F242}">
+							<Media>
+								<File Id="301917649"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
 				</Event>
 				<Event Id="2364952868" Name="Photo_Quest" ObjectPath="\Events\Default Work Unit\Photo_Quest" DurationType="OneShot" DurationMin="3.877333" DurationMax="3.877333">
 					<IncludedMemoryFiles>
@@ -499,7 +524,33 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="2118900976" Name="UI_Hover" ObjectPath="\Events\Default Work Unit\UI_Hover" DurationType="OneShot" DurationMin="0.125000" DurationMax="0.125000">
+					<IncludedMemoryFiles>
+						<File Id="664047712" Language="SFX">
+							<ShortName>UI\UI_Hover_00.wav</ShortName>
+							<Path>SFX\UI\UI_Hover_00_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2382194672" Name="UI_Play" ObjectPath="\Events\Default Work Unit\UI_Play" DurationType="OneShot" DurationMin="1.248659" DurationMax="1.248659">
+					<IncludedMemoryFiles>
+						<File Id="986052881" Language="SFX">
+							<ShortName>UI\UI_New_Game_00.wav</ShortName>
+							<Path>SFX\UI\UI_New_Game_00_A53F81EA.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 			</IncludedEvents>
+			<StateGroups>
+				<StateGroup Id="3991942870" Name="Music" ObjectPath="\States\Default Work Unit\Music">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Music\None"/>
+						<State Id="2607556080" Name="Menu" ObjectPath="\States\Default Work Unit\Music\Menu"/>
+						<State Id="89505537" Name="Gameplay" ObjectPath="\States\Default Work Unit\Music\Gameplay"/>
+						<State Id="3711779106" Name="Time_Capsule" ObjectPath="\States\Default Work Unit\Music\Time_Capsule"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
 			<SwitchGroups>
 				<SwitchGroup Id="4064446173" Name="Surface_Type" ObjectPath="\Switches\Default Work Unit\Surface_Type">
 					<Switches>

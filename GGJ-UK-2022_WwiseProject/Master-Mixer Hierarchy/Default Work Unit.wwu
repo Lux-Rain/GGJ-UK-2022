@@ -9,6 +9,36 @@
 							<ObjectRef Name="System" ID="{A3DFBA91-75EE-4867-ACD7-03CB602856BE}" WorkUnitID="{BAE79572-757B-4718-A7C0-781B5083B5CC}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="Photo" ID="{0CE75555-737B-4405-B001-BEEEDFB74BBF}">
+							<PropertyList>
+								<Property Name="MaxDuckVolume" Type="Real64" Value="-2"/>
+								<Property Name="RecoveryTime" Type="Real64" Value="0.2"/>
+							</PropertyList>
+							<DuckingList>
+								<DuckItem>
+									<BusRef Name="Ambience" ID="{497E9F73-FC15-4EA1-B8EB-DB85E7598F5D}"/>
+									<DuckingParam>
+										<Volume>-2</Volume>
+										<FadeInTime>0.200000002980232</FadeInTime>
+										<FadeOutTime>0.100000001490116</FadeOutTime>
+										<FadeCurve>FadeExp1</FadeCurve>
+									</DuckingParam>
+								</DuckItem>
+								<DuckItem>
+									<BusRef Name="Music" ID="{120AFBED-9A63-4C45-AEFF-A2AB52824110}"/>
+									<DuckingParam>
+										<Volume>-2</Volume>
+										<FadeInTime>0.200000002980232</FadeInTime>
+										<FadeOutTime>0.100000001490116</FadeOutTime>
+										<FadeCurve>FadeExp1</FadeCurve>
+									</DuckingParam>
+								</DuckItem>
+							</DuckingList>
+						</Bus>
+						<Bus Name="Music" ID="{120AFBED-9A63-4C45-AEFF-A2AB52824110}"/>
+						<Bus Name="Ambience" ID="{497E9F73-FC15-4EA1-B8EB-DB85E7598F5D}"/>
+					</ChildrenList>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>

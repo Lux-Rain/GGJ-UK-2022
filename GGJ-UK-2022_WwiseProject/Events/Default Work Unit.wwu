@@ -72,12 +72,16 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Music_Gameplay" ID="{1034E688-3D33-4981-8CAE-FB880DEA5428}">
+				<Event Name="Music" ID="{1034E688-3D33-4981-8CAE-FB880DEA5428}">
 					<ChildrenList>
 						<Action Name="" ID="{5F35CD5B-64BF-44E0-A391-76F84F0EC645}" ShortID="663016310">
+							<PropertyList>
+								<Property Name="FadeInCurve" Type="int16" Value="6"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.1"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Music" ID="{16C1F513-4EC1-4026-B09A-F54B3497D1DA}" WorkUnitID="{293433B6-4DD3-43B9-8020-481816B1238D}"/>
+									<ObjectRef Name="Music Switch" ID="{DE0BEC47-B2DF-4924-B58B-52CD9500C803}" WorkUnitID="{293433B6-4DD3-43B9-8020-481816B1238D}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -144,6 +148,28 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="SFX_Camera_Zoom_Out_00" ID="{FEF6DFEA-26F5-4132-8C5F-836F3C5984BA}" WorkUnitID="{60951CF5-A77E-48C0-B3A0-6721FBCC7C0F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="UI_Hover" ID="{38132331-2BC4-4183-BBFE-D61E0FB03BED}">
+					<ChildrenList>
+						<Action Name="" ID="{4C05BFDB-722B-478C-821B-07E2EF5CD817}" ShortID="785466867">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Hover_00" ID="{8BF59E66-BCBF-4CEF-A44A-D5A34D287546}" WorkUnitID="{60951CF5-A77E-48C0-B3A0-6721FBCC7C0F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="UI_Play" ID="{1189BEDD-05EF-4428-9950-6DAC694499E3}">
+					<ChildrenList>
+						<Action Name="" ID="{5D9BBDD5-95A1-4DEB-938B-336E3A1781BB}" ShortID="282074559">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_New_Game_00" ID="{CB39139A-E77C-405F-90F2-40C79ED2B106}" WorkUnitID="{60951CF5-A77E-48C0-B3A0-6721FBCC7C0F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
