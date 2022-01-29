@@ -14,6 +14,141 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Footsteps" ID="{64D8363B-862D-4591-99EE-A0ED28ECE0E6}">
+					<ChildrenList>
+						<Action Name="" ID="{68A84236-73D0-4B96-915E-5F750A0187E3}" ShortID="153913547">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footsteps" ID="{067B9510-730D-4CB3-9813-8E9E4836E627}" WorkUnitID="{60951CF5-A77E-48C0-B3A0-6721FBCC7C0F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Photo_Random" ID="{497B5E21-68BB-469F-8E2F-E4843EF68896}">
+					<ChildrenList>
+						<Action Name="" ID="{04E0439C-75B8-4EFC-BCD8-F699D723BFB3}" ShortID="976094783">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Photo_Snap" ID="{7226E844-D012-4C15-B01C-6F721ACA44FA}" WorkUnitID="{60951CF5-A77E-48C0-B3A0-6721FBCC7C0F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Photo_Quest" ID="{47E4A414-211A-4BAC-A3D2-9C90A6DF9D6C}">
+					<ChildrenList>
+						<Action Name="" ID="{0E738A35-AC8A-4176-B4E9-CAF3AEFD1BBE}" ShortID="973079253">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Photo_Snap" ID="{7226E844-D012-4C15-B01C-6F721ACA44FA}" WorkUnitID="{60951CF5-A77E-48C0-B3A0-6721FBCC7C0F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{79F7202F-043D-47B1-8DB7-94BB9DB220EE}" ShortID="796890199">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Successful_Photo_01" ID="{A7624018-BE80-406C-8077-05D0DD645F5A}" WorkUnitID="{60951CF5-A77E-48C0-B3A0-6721FBCC7C0F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Ambience" ID="{A3060B93-BCCD-4427-A19C-2588452E9EDF}">
+					<ChildrenList>
+						<Action Name="" ID="{536F3058-C059-4FF1-AB55-1A8BDBB07A5D}" ShortID="53238268">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB_Outside_Loop_00" ID="{843C41A9-9631-4794-B5C6-E1771ACD5166}" WorkUnitID="{60951CF5-A77E-48C0-B3A0-6721FBCC7C0F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{3748C0E6-1EB2-4731-A469-7F7E4524534E}" ShortID="191246927">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB_Insects_Layer_00" ID="{50A60A3B-770A-4FB0-8DD4-2FE2D64CE709}" WorkUnitID="{60951CF5-A77E-48C0-B3A0-6721FBCC7C0F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Music_Gameplay" ID="{1034E688-3D33-4981-8CAE-FB880DEA5428}">
+					<ChildrenList>
+						<Action Name="" ID="{5F35CD5B-64BF-44E0-A391-76F84F0EC645}" ShortID="663016310">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music" ID="{16C1F513-4EC1-4026-B09A-F54B3497D1DA}" WorkUnitID="{293433B6-4DD3-43B9-8020-481816B1238D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Shovel_Digging" ID="{50B0E62D-68A7-4117-80CB-52CB18DDE6EE}">
+					<ChildrenList>
+						<Action Name="" ID="{4E8D1590-612B-4A99-AD46-E41A5F7D7785}" ShortID="614118744">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Shovel_Dig" ID="{8585B7BA-A39A-4C47-8E5C-A6B8E77759E1}" WorkUnitID="{60951CF5-A77E-48C0-B3A0-6721FBCC7C0F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Shovel_Take" ID="{08578F06-F3F8-4131-9FE4-E9B76F7DB097}">
+					<ChildrenList>
+						<Action Name="" ID="{D7AAA060-23AB-47B0-8545-2B4C2458A611}" ShortID="832855079">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Shovel_Take" ID="{946813B7-7DA3-4C10-87A8-A7A6C069E913}" WorkUnitID="{60951CF5-A77E-48C0-B3A0-6721FBCC7C0F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Book_Pages" ID="{8B9726DB-AF97-4661-B419-E88A900988DA}">
+					<ChildrenList>
+						<Action Name="" ID="{53F911EA-CF24-4758-8786-0E81E1550F5C}" ShortID="1021720710">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Book_Pages" ID="{455FD9AD-6E40-411B-8C19-A71D7540D0F7}" WorkUnitID="{60951CF5-A77E-48C0-B3A0-6721FBCC7C0F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Trees" ID="{E4FAC9B8-779F-4088-83A7-83F18F00AD29}">
+					<ChildrenList>
+						<Action Name="" ID="{36B74827-3753-41D2-B0DC-832446E9B6F2}" ShortID="694311394">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Trees_Loop_01" ID="{7AAE7111-001D-4123-AF0F-B4963D55E7ED}" WorkUnitID="{60951CF5-A77E-48C0-B3A0-6721FBCC7C0F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Camera_Zoom_In" ID="{784D53A6-8DEC-44F3-9E7E-A05149F6C40B}">
+					<ChildrenList>
+						<Action Name="" ID="{E41B188C-0B96-4797-833C-ED854EE5C807}" ShortID="619816472">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Camera_Zoom_In_00" ID="{ED8C30A3-0FCC-40DD-9A22-175FDA6EDC27}" WorkUnitID="{60951CF5-A77E-48C0-B3A0-6721FBCC7C0F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Camera_Zoom_Out" ID="{6BA1CDA1-66F4-42F3-8285-BEB1DD8F3AD3}">
+					<ChildrenList>
+						<Action Name="" ID="{E34274BD-C386-4797-9539-E942813F4524}" ShortID="417644825">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Camera_Zoom_Out_00" ID="{FEF6DFEA-26F5-4132-8C5F-836F3C5984BA}" WorkUnitID="{60951CF5-A77E-48C0-B3A0-6721FBCC7C0F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

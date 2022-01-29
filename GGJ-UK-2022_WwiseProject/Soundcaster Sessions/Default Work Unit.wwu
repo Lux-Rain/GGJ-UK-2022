@@ -1,6 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{2088A0DF-AEEB-4979-B99A-974972CA3E48}" SchemaVersion="97">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{2088A0DF-AEEB-4979-B99A-974972CA3E48}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{2088A0DF-AEEB-4979-B99A-974972CA3E48}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Test" ID="{6504BE17-2F8C-438E-8486-D317220B7A14}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Ambience" ID="{A3060B93-BCCD-4427-A19C-2588452E9EDF}" WorkUnitID="{CA4A36B3-EBE4-467E-8A0A-1D02A96903A4}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Music_Gameplay" ID="{1034E688-3D33-4981-8CAE-FB880DEA5428}" WorkUnitID="{CA4A36B3-EBE4-467E-8A0A-1D02A96903A4}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Footsteps" ID="{64D8363B-862D-4591-99EE-A0ED28ECE0E6}" WorkUnitID="{CA4A36B3-EBE4-467E-8A0A-1D02A96903A4}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Sand" ID="{C404A128-F3DC-47D3-91B2-FD908113CB1F}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>

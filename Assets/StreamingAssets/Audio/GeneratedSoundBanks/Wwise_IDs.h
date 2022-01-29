@@ -13,8 +13,36 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID AMBIENCE = 85412153U;
+        static const AkUniqueID BOOK_PAGES = 1831829655U;
+        static const AkUniqueID CAMERA_ZOOM_IN = 2766569724U;
+        static const AkUniqueID CAMERA_ZOOM_OUT = 2043534011U;
+        static const AkUniqueID FOOTSTEPS = 2385628198U;
         static const AkUniqueID JUMP_TRAMPOLINE = 2012276773U;
+        static const AkUniqueID MUSIC_GAMEPLAY = 620878633U;
+        static const AkUniqueID PHOTO_QUEST = 2364952868U;
+        static const AkUniqueID PHOTO_RANDOM = 4068392799U;
+        static const AkUniqueID SHOVEL_DIGGING = 2053301760U;
+        static const AkUniqueID SHOVEL_TAKE = 1059993718U;
+        static const AkUniqueID TREES = 3882419280U;
     } // namespace EVENTS
+
+    namespace SWITCHES
+    {
+        namespace SURFACE_TYPE
+        {
+            static const AkUniqueID GROUP = 4064446173U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID DIRT = 2195636714U;
+                static const AkUniqueID GRASS = 4248645337U;
+                static const AkUniqueID ROCK = 2144363834U;
+                static const AkUniqueID SAND = 803837735U;
+            } // namespace SWITCH
+        } // namespace SURFACE_TYPE
+
+    } // namespace SWITCHES
 
     namespace BANKS
     {

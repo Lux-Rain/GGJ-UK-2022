@@ -70,8 +70,12 @@ public class PlayerController : MonoBehaviour
 
     private void OnJump()
     {
-
         _velocityY = jumpForce;
+    }
+
+    public void AddJumpForce(float force)
+    {
+        _velocityY = force;
     }
 
     private void Update()
