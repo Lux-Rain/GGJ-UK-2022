@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>D:\Projects\Unity\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>D:\Projects\Unity\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>D:\Projects\Unity\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>D:\Projects\Unity\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -16,11 +16,349 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="626793006">
+		<SoundBank Id="3161908922" Language="SFX" Hash="3340989877">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
+				<Event Id="85412153" Name="Ambience" ObjectPath="\Events\Default Work Unit\Ambience" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="102271720" Language="SFX">
+							<ShortName>AMB_Insects_Layer_00.wav</ShortName>
+							<Path>SFX\AMB_Insects_Layer_00_7A5DAA70.wem</Path>
+						</File>
+						<File Id="521801974" Language="SFX">
+							<ShortName>AMB_Outside_Loop_00.wav</ShortName>
+							<Path>SFX\AMB_Outside_Loop_00_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1831829655" Name="Book_Pages" ObjectPath="\Events\Default Work Unit\Book_Pages" DurationType="OneShot" DurationMin="1.173051" DurationMax="1.619551">
+					<IncludedMemoryFiles>
+						<File Id="171663630" Language="SFX">
+							<ShortName>Book_Pages\FLY_Book_Pages_04.wav</ShortName>
+							<Path>SFX\Book_Pages\FLY_Book_Pages_04_39E69988.wem</Path>
+						</File>
+						<File Id="417870641" Language="SFX">
+							<ShortName>Book_Pages\FLY_Book_Pages_06.wav</ShortName>
+							<Path>SFX\Book_Pages\FLY_Book_Pages_06_10C4C929.wem</Path>
+						</File>
+						<File Id="419919558" Language="SFX">
+							<ShortName>Book_Pages\FLY_Book_Pages_05.wav</ShortName>
+							<Path>SFX\Book_Pages\FLY_Book_Pages_05_A85E5164.wem</Path>
+						</File>
+						<File Id="431181762" Language="SFX">
+							<ShortName>Book_Pages\FLY_Book_Pages_07.wav</ShortName>
+							<Path>SFX\Book_Pages\FLY_Book_Pages_07_10C4C929.wem</Path>
+						</File>
+						<File Id="478968920" Language="SFX">
+							<ShortName>Book_Pages\FLY_Book_Pages_08.wav</ShortName>
+							<Path>SFX\Book_Pages\FLY_Book_Pages_08_63B6B050.wem</Path>
+						</File>
+						<File Id="758139909" Language="SFX">
+							<ShortName>Book_Pages\FLY_Book_Pages_09.wav</ShortName>
+							<Path>SFX\Book_Pages\FLY_Book_Pages_09_630B2BB5.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2766569724" Name="Camera_Zoom_In" ObjectPath="\Events\Default Work Unit\Camera_Zoom_In" DurationType="OneShot" DurationMin="0.507007" DurationMax="0.507007">
+					<IncludedMemoryFiles>
+						<File Id="271594297" Language="SFX">
+							<ShortName>Photo Taking\SFX_Camera_Zoom_In_00.wav</ShortName>
+							<Path>SFX\Photo Taking\SFX_Camera_Zoom_In_00_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2043534011" Name="Camera_Zoom_Out" ObjectPath="\Events\Default Work Unit\Camera_Zoom_Out" DurationType="OneShot" DurationMin="0.483016" DurationMax="0.483016">
+					<IncludedMemoryFiles>
+						<File Id="440390264" Language="SFX">
+							<ShortName>Photo Taking\SFX_Camera_Zoom_Out_00.wav</ShortName>
+							<Path>SFX\Photo Taking\SFX_Camera_Zoom_Out_00_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2385628198" Name="Footsteps" ObjectPath="\Events\Default Work Unit\Footsteps" DurationType="OneShot" DurationMin="0.158292" DurationMax="0.625000">
+					<IncludedMemoryFiles>
+						<File Id="29674287" Language="SFX">
+							<ShortName>Footsteps\Sand_Steps\FLY_Sand_Step_09.wav</ShortName>
+							<Path>SFX\Footsteps\Sand_Steps\FLY_Sand_Step_09_10C4C929.wem</Path>
+						</File>
+						<File Id="65110934" Language="SFX">
+							<ShortName>Footsteps\Dirt_Steps\FLY_Gravel_Step_07.wav</ShortName>
+							<Path>SFX\Footsteps\Dirt_Steps\FLY_Gravel_Step_07_10C4C929.wem</Path>
+						</File>
+						<File Id="84549223" Language="SFX">
+							<ShortName>Footsteps\Dirt_Steps\FLY_Gravel_Step_011.wav</ShortName>
+							<Path>SFX\Footsteps\Dirt_Steps\FLY_Gravel_Step_011_10C4C929.wem</Path>
+						</File>
+						<File Id="119955333" Language="SFX">
+							<ShortName>Footsteps\Dirt_Steps\FLY_Gravel_Step_02.wav</ShortName>
+							<Path>SFX\Footsteps\Dirt_Steps\FLY_Gravel_Step_02_10C4C929.wem</Path>
+						</File>
+						<File Id="125003833" Language="SFX">
+							<ShortName>Footsteps\Sand_Steps\FLY_Sand_Step_11.wav</ShortName>
+							<Path>SFX\Footsteps\Sand_Steps\FLY_Sand_Step_11_10C4C929.wem</Path>
+						</File>
+						<File Id="126864694" Language="SFX">
+							<ShortName>Footsteps\Sand_Steps\FLY_Sand_Step_00.wav</ShortName>
+							<Path>SFX\Footsteps\Sand_Steps\FLY_Sand_Step_00_10C4C929.wem</Path>
+						</File>
+						<File Id="228064426" Language="SFX">
+							<ShortName>Footsteps\Rock_Steps\FLY_Rock_Step_05.wav</ShortName>
+							<Path>SFX\Footsteps\Rock_Steps\FLY_Rock_Step_05_10C4C929.wem</Path>
+						</File>
+						<File Id="282746718" Language="SFX">
+							<ShortName>Footsteps\Dirt_Steps\FLY_Gravel_Step_09.wav</ShortName>
+							<Path>SFX\Footsteps\Dirt_Steps\FLY_Gravel_Step_09_10C4C929.wem</Path>
+						</File>
+						<File Id="331960533" Language="SFX">
+							<ShortName>Footsteps\Grass_Steps\FLY_Grass_Step_07.wav</ShortName>
+							<Path>SFX\Footsteps\Grass_Steps\FLY_Grass_Step_07_10C4C929.wem</Path>
+						</File>
+						<File Id="338052932" Language="SFX">
+							<ShortName>Footsteps\Dirt_Steps\FLY_Gravel_Step_03.wav</ShortName>
+							<Path>SFX\Footsteps\Dirt_Steps\FLY_Gravel_Step_03_10C4C929.wem</Path>
+						</File>
+						<File Id="341427813" Language="SFX">
+							<ShortName>Footsteps\Sand_Steps\FLY_Sand_Step_03.wav</ShortName>
+							<Path>SFX\Footsteps\Sand_Steps\FLY_Sand_Step_03_10C4C929.wem</Path>
+						</File>
+						<File Id="384379166" Language="SFX">
+							<ShortName>Footsteps\Grass_Steps\FLY_Grass_Step_02.wav</ShortName>
+							<Path>SFX\Footsteps\Grass_Steps\FLY_Grass_Step_02_10C4C929.wem</Path>
+						</File>
+						<File Id="413970916" Language="SFX">
+							<ShortName>Footsteps\Grass_Steps\FLY_Grass_Step_012.wav</ShortName>
+							<Path>SFX\Footsteps\Grass_Steps\FLY_Grass_Step_012_10C4C929.wem</Path>
+						</File>
+						<File Id="429085882" Language="SFX">
+							<ShortName>Footsteps\Grass_Steps\FLY_Grass_Step_00.wav</ShortName>
+							<Path>SFX\Footsteps\Grass_Steps\FLY_Grass_Step_00_10C4C929.wem</Path>
+						</File>
+						<File Id="459940485" Language="SFX">
+							<ShortName>Footsteps\Grass_Steps\FLY_Grass_Step_05.wav</ShortName>
+							<Path>SFX\Footsteps\Grass_Steps\FLY_Grass_Step_05_10C4C929.wem</Path>
+						</File>
+						<File Id="482922838" Language="SFX">
+							<ShortName>Footsteps\Rock_Steps\FLY_Rock_Step_06.wav</ShortName>
+							<Path>SFX\Footsteps\Rock_Steps\FLY_Rock_Step_06_10C4C929.wem</Path>
+						</File>
+						<File Id="484788193" Language="SFX">
+							<ShortName>Footsteps\Dirt_Steps\FLY_Gravel_Step_04.wav</ShortName>
+							<Path>SFX\Footsteps\Dirt_Steps\FLY_Gravel_Step_04_10C4C929.wem</Path>
+						</File>
+						<File Id="496472504" Language="SFX">
+							<ShortName>Footsteps\Grass_Steps\FLY_Grass_Step_08.wav</ShortName>
+							<Path>SFX\Footsteps\Grass_Steps\FLY_Grass_Step_08_10C4C929.wem</Path>
+						</File>
+						<File Id="498809000" Language="SFX">
+							<ShortName>Footsteps\Dirt_Steps\FLY_Gravel_Step_01.wav</ShortName>
+							<Path>SFX\Footsteps\Dirt_Steps\FLY_Gravel_Step_01_10C4C929.wem</Path>
+						</File>
+						<File Id="500498878" Language="SFX">
+							<ShortName>Footsteps\Grass_Steps\FLY_Grass_Step_06.wav</ShortName>
+							<Path>SFX\Footsteps\Grass_Steps\FLY_Grass_Step_06_10C4C929.wem</Path>
+						</File>
+						<File Id="510241042" Language="SFX">
+							<ShortName>Footsteps\Dirt_Steps\FLY_Gravel_Step_00.wav</ShortName>
+							<Path>SFX\Footsteps\Dirt_Steps\FLY_Gravel_Step_00_10C4C929.wem</Path>
+						</File>
+						<File Id="541074855" Language="SFX">
+							<ShortName>Footsteps\Rock_Steps\FLY_Rock_Step_00.wav</ShortName>
+							<Path>SFX\Footsteps\Rock_Steps\FLY_Rock_Step_00_10C4C929.wem</Path>
+						</File>
+						<File Id="552137381" Language="SFX">
+							<ShortName>Footsteps\Dirt_Steps\FLY_Gravel_Step_010.wav</ShortName>
+							<Path>SFX\Footsteps\Dirt_Steps\FLY_Gravel_Step_010_10C4C929.wem</Path>
+						</File>
+						<File Id="576299045" Language="SFX">
+							<ShortName>Footsteps\Rock_Steps\FLY_Rock_Step_03.wav</ShortName>
+							<Path>SFX\Footsteps\Rock_Steps\FLY_Rock_Step_03_10C4C929.wem</Path>
+						</File>
+						<File Id="578820251" Language="SFX">
+							<ShortName>Footsteps\Sand_Steps\FLY_Sand_Step_02.wav</ShortName>
+							<Path>SFX\Footsteps\Sand_Steps\FLY_Sand_Step_02_10C4C929.wem</Path>
+						</File>
+						<File Id="594746994" Language="SFX">
+							<ShortName>Footsteps\Rock_Steps\FLY_Rock_Step_01.wav</ShortName>
+							<Path>SFX\Footsteps\Rock_Steps\FLY_Rock_Step_01_10C4C929.wem</Path>
+						</File>
+						<File Id="616242715" Language="SFX">
+							<ShortName>Footsteps\Rock_Steps\FLY_Rock_Step_07.wav</ShortName>
+							<Path>SFX\Footsteps\Rock_Steps\FLY_Rock_Step_07_10C4C929.wem</Path>
+						</File>
+						<File Id="617193352" Language="SFX">
+							<ShortName>Footsteps\Dirt_Steps\FLY_Gravel_Step_08.wav</ShortName>
+							<Path>SFX\Footsteps\Dirt_Steps\FLY_Gravel_Step_08_10C4C929.wem</Path>
+						</File>
+						<File Id="619798350" Language="SFX">
+							<ShortName>Footsteps\Sand_Steps\FLY_Sand_Step_08.wav</ShortName>
+							<Path>SFX\Footsteps\Sand_Steps\FLY_Sand_Step_08_10C4C929.wem</Path>
+						</File>
+						<File Id="627174857" Language="SFX">
+							<ShortName>Footsteps\Dirt_Steps\FLY_Gravel_Step_05.wav</ShortName>
+							<Path>SFX\Footsteps\Dirt_Steps\FLY_Gravel_Step_05_10C4C929.wem</Path>
+						</File>
+						<File Id="652355706" Language="SFX">
+							<ShortName>Footsteps\Rock_Steps\FLY_Rock_Step_04.wav</ShortName>
+							<Path>SFX\Footsteps\Rock_Steps\FLY_Rock_Step_04_10C4C929.wem</Path>
+						</File>
+						<File Id="690958677" Language="SFX">
+							<ShortName>Footsteps\Sand_Steps\FLY_Sand_Step_01.wav</ShortName>
+							<Path>SFX\Footsteps\Sand_Steps\FLY_Sand_Step_01_10C4C929.wem</Path>
+						</File>
+						<File Id="695240229" Language="SFX">
+							<ShortName>Footsteps\Rock_Steps\FLY_Rock_Step_010.wav</ShortName>
+							<Path>SFX\Footsteps\Rock_Steps\FLY_Rock_Step_010_10C4C929.wem</Path>
+						</File>
+						<File Id="696290281" Language="SFX">
+							<ShortName>Footsteps\Grass_Steps\FLY_Grass_Step_04.wav</ShortName>
+							<Path>SFX\Footsteps\Grass_Steps\FLY_Grass_Step_04_10C4C929.wem</Path>
+						</File>
+						<File Id="716691824" Language="SFX">
+							<ShortName>Footsteps\Sand_Steps\FLY_Sand_Step_06.wav</ShortName>
+							<Path>SFX\Footsteps\Sand_Steps\FLY_Sand_Step_06_10C4C929.wem</Path>
+						</File>
+						<File Id="729220212" Language="SFX">
+							<ShortName>Footsteps\Dirt_Steps\FLY_Gravel_Step_012.wav</ShortName>
+							<Path>SFX\Footsteps\Dirt_Steps\FLY_Gravel_Step_012_10C4C929.wem</Path>
+						</File>
+						<File Id="742548728" Language="SFX">
+							<ShortName>Footsteps\Rock_Steps\FLY_Rock_Step_09.wav</ShortName>
+							<Path>SFX\Footsteps\Rock_Steps\FLY_Rock_Step_09_10C4C929.wem</Path>
+						</File>
+						<File Id="766129979" Language="SFX">
+							<ShortName>Footsteps\Rock_Steps\FLY_Rock_Step_08.wav</ShortName>
+							<Path>SFX\Footsteps\Rock_Steps\FLY_Rock_Step_08_10C4C929.wem</Path>
+						</File>
+						<File Id="767902281" Language="SFX">
+							<ShortName>Footsteps\Grass_Steps\FLY_Grass_Step_01.wav</ShortName>
+							<Path>SFX\Footsteps\Grass_Steps\FLY_Grass_Step_01_10C4C929.wem</Path>
+						</File>
+						<File Id="769707766" Language="SFX">
+							<ShortName>Footsteps\Grass_Steps\FLY_Grass_Step_03.wav</ShortName>
+							<Path>SFX\Footsteps\Grass_Steps\FLY_Grass_Step_03_10C4C929.wem</Path>
+						</File>
+						<File Id="779985187" Language="SFX">
+							<ShortName>Footsteps\Grass_Steps\FLY_Grass_Step_09.wav</ShortName>
+							<Path>SFX\Footsteps\Grass_Steps\FLY_Grass_Step_09_10C4C929.wem</Path>
+						</File>
+						<File Id="787337190" Language="SFX">
+							<ShortName>Footsteps\Rock_Steps\FLY_Rock_Step_02.wav</ShortName>
+							<Path>SFX\Footsteps\Rock_Steps\FLY_Rock_Step_02_10C4C929.wem</Path>
+						</File>
+						<File Id="795081752" Language="SFX">
+							<ShortName>Footsteps\Sand_Steps\FLY_Sand_Step_04.wav</ShortName>
+							<Path>SFX\Footsteps\Sand_Steps\FLY_Sand_Step_04_10C4C929.wem</Path>
+						</File>
+						<File Id="810845581" Language="SFX">
+							<ShortName>Footsteps\Sand_Steps\FLY_Sand_Step_10.wav</ShortName>
+							<Path>SFX\Footsteps\Sand_Steps\FLY_Sand_Step_10_10C4C929.wem</Path>
+						</File>
+						<File Id="852552896" Language="SFX">
+							<ShortName>Footsteps\Sand_Steps\FLY_Sand_Step_07.wav</ShortName>
+							<Path>SFX\Footsteps\Sand_Steps\FLY_Sand_Step_07_10C4C929.wem</Path>
+						</File>
+						<File Id="885972452" Language="SFX">
+							<ShortName>Footsteps\Sand_Steps\FLY_Sand_Step_12.wav</ShortName>
+							<Path>SFX\Footsteps\Sand_Steps\FLY_Sand_Step_12_10C4C929.wem</Path>
+						</File>
+						<File Id="927389751" Language="SFX">
+							<ShortName>Footsteps\Sand_Steps\FLY_Sand_Step_05.wav</ShortName>
+							<Path>SFX\Footsteps\Sand_Steps\FLY_Sand_Step_05_10C4C929.wem</Path>
+						</File>
+						<File Id="939912382" Language="SFX">
+							<ShortName>Footsteps\Grass_Steps\FLY_Grass_Step_011.wav</ShortName>
+							<Path>SFX\Footsteps\Grass_Steps\FLY_Grass_Step_011_10C4C929.wem</Path>
+						</File>
+						<File Id="973239422" Language="SFX">
+							<ShortName>Footsteps\Rock_Steps\FLY_Rock_Step_012.wav</ShortName>
+							<Path>SFX\Footsteps\Rock_Steps\FLY_Rock_Step_012_10C4C929.wem</Path>
+						</File>
+						<File Id="978151321" Language="SFX">
+							<ShortName>Footsteps\Rock_Steps\FLY_Rock_Step_011.wav</ShortName>
+							<Path>SFX\Footsteps\Rock_Steps\FLY_Rock_Step_011_10C4C929.wem</Path>
+						</File>
+						<File Id="996016406" Language="SFX">
+							<ShortName>Footsteps\Grass_Steps\FLY_Grass_Step_010.wav</ShortName>
+							<Path>SFX\Footsteps\Grass_Steps\FLY_Grass_Step_010_10C4C929.wem</Path>
+						</File>
+						<File Id="1017138279" Language="SFX">
+							<ShortName>Footsteps\Dirt_Steps\FLY_Gravel_Step_06.wav</ShortName>
+							<Path>SFX\Footsteps\Dirt_Steps\FLY_Gravel_Step_06_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{C404A128-F3DC-47D3-91B2-FD908113CB1F}">
+							<Media>
+								<File Id="29674287"/>
+								<File Id="125003833"/>
+								<File Id="126864694"/>
+								<File Id="341427813"/>
+								<File Id="578820251"/>
+								<File Id="619798350"/>
+								<File Id="690958677"/>
+								<File Id="716691824"/>
+								<File Id="795081752"/>
+								<File Id="810845581"/>
+								<File Id="852552896"/>
+								<File Id="885972452"/>
+								<File Id="927389751"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{ABA5116E-8369-41B3-BEC1-EBB4A0F67356}">
+							<Media>
+								<File Id="331960533"/>
+								<File Id="384379166"/>
+								<File Id="413970916"/>
+								<File Id="429085882"/>
+								<File Id="459940485"/>
+								<File Id="496472504"/>
+								<File Id="500498878"/>
+								<File Id="696290281"/>
+								<File Id="767902281"/>
+								<File Id="769707766"/>
+								<File Id="779985187"/>
+								<File Id="939912382"/>
+								<File Id="996016406"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{53EEF714-234F-4887-BB57-D4641A99C60B}">
+							<Media>
+								<File Id="65110934"/>
+								<File Id="84549223"/>
+								<File Id="119955333"/>
+								<File Id="282746718"/>
+								<File Id="338052932"/>
+								<File Id="484788193"/>
+								<File Id="498809000"/>
+								<File Id="510241042"/>
+								<File Id="552137381"/>
+								<File Id="617193352"/>
+								<File Id="627174857"/>
+								<File Id="729220212"/>
+								<File Id="1017138279"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{34AD0CA8-2D53-49E5-A1C4-5135B8B8BDAC}">
+							<Media>
+								<File Id="228064426"/>
+								<File Id="482922838"/>
+								<File Id="541074855"/>
+								<File Id="576299045"/>
+								<File Id="594746994"/>
+								<File Id="616242715"/>
+								<File Id="652355706"/>
+								<File Id="695240229"/>
+								<File Id="742548728"/>
+								<File Id="766129979"/>
+								<File Id="787337190"/>
+								<File Id="973239422"/>
+								<File Id="978151321"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
 				<Event Id="2012276773" Name="Jump_Trampoline" ObjectPath="\Events\Default Work Unit\Jump_Trampoline" DurationType="OneShot" DurationMin="0.525560" DurationMax="0.891905">
 					<IncludedMemoryFiles>
 						<File Id="57088348" Language="SFX">
@@ -77,7 +415,101 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="620878633" Name="Music_Gameplay" ObjectPath="\Events\Default Work Unit\Music_Gameplay" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="462006637" Language="SFX">
+							<ShortName>MUS_Music_Pad_and_Melody.wav</ShortName>
+							<Path>SFX\MUS_Music_Pad_and_Melody_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2364952868" Name="Photo_Quest" ObjectPath="\Events\Default Work Unit\Photo_Quest" DurationType="OneShot" DurationMin="3.877333" DurationMax="3.877333">
+					<IncludedMemoryFiles>
+						<File Id="29935779" Language="SFX">
+							<ShortName>Photo Taking\SFX_Photo_02.wav</ShortName>
+							<Path>SFX\Photo Taking\SFX_Photo_02_10C4C929.wem</Path>
+						</File>
+						<File Id="215962258" Language="SFX">
+							<ShortName>Photo Taking\SFX_Photo_03.wav</ShortName>
+							<Path>SFX\Photo Taking\SFX_Photo_03_10C4C929.wem</Path>
+						</File>
+						<File Id="275629212" Language="SFX">
+							<ShortName>Photo Taking\SFX_Successful_Photo_01.wav</ShortName>
+							<Path>SFX\Photo Taking\SFX_Successful_Photo_01_10C4C929.wem</Path>
+						</File>
+						<File Id="363657883" Language="SFX">
+							<ShortName>Photo Taking\SFX_Photo_01.wav</ShortName>
+							<Path>SFX\Photo Taking\SFX_Photo_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4068392799" Name="Photo_Random" ObjectPath="\Events\Default Work Unit\Photo_Random" DurationType="OneShot" DurationMin="0.500000" DurationMax="0.500000">
+					<IncludedMemoryFiles>
+						<File Id="29935779" Language="SFX">
+							<ShortName>Photo Taking\SFX_Photo_02.wav</ShortName>
+							<Path>SFX\Photo Taking\SFX_Photo_02_10C4C929.wem</Path>
+						</File>
+						<File Id="215962258" Language="SFX">
+							<ShortName>Photo Taking\SFX_Photo_03.wav</ShortName>
+							<Path>SFX\Photo Taking\SFX_Photo_03_10C4C929.wem</Path>
+						</File>
+						<File Id="363657883" Language="SFX">
+							<ShortName>Photo Taking\SFX_Photo_01.wav</ShortName>
+							<Path>SFX\Photo Taking\SFX_Photo_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2053301760" Name="Shovel_Digging" ObjectPath="\Events\Default Work Unit\Shovel_Digging" DurationType="OneShot" DurationMin="0.875011" DurationMax="0.875011">
+					<IncludedMemoryFiles>
+						<File Id="190187066" Language="SFX">
+							<ShortName>Shovel\SFX_Shovel_Dig_00.wav</ShortName>
+							<Path>SFX\Shovel\SFX_Shovel_Dig_00_10C4C929.wem</Path>
+						</File>
+						<File Id="328000929" Language="SFX">
+							<ShortName>Shovel\SFX_Shovel_Dig_01.wav</ShortName>
+							<Path>SFX\Shovel\SFX_Shovel_Dig_01_10C4C929.wem</Path>
+						</File>
+						<File Id="843167269" Language="SFX">
+							<ShortName>Shovel\SFX_Shovel_Dig_02.wav</ShortName>
+							<Path>SFX\Shovel\SFX_Shovel_Dig_02_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1059993718" Name="Shovel_Take" ObjectPath="\Events\Default Work Unit\Shovel_Take" DurationType="OneShot" DurationMin="0.437506" DurationMax="0.505873">
+					<IncludedMemoryFiles>
+						<File Id="82799580" Language="SFX">
+							<ShortName>Shovel\SFX_Shovel_Take_01.wav</ShortName>
+							<Path>SFX\Shovel\SFX_Shovel_Take_01_10C4C929.wem</Path>
+						</File>
+						<File Id="237044875" Language="SFX">
+							<ShortName>Shovel\SFX_Shovel_Take_00.wav</ShortName>
+							<Path>SFX\Shovel\SFX_Shovel_Take_00_10C4C929.wem</Path>
+						</File>
+						<File Id="986489408" Language="SFX">
+							<ShortName>Shovel\SFX_Shovel_Take_02.wav</ShortName>
+							<Path>SFX\Shovel\SFX_Shovel_Take_02_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3882419280" Name="Trees" ObjectPath="\Events\Default Work Unit\Trees" MaxAttenuation="30.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="841980199" Language="SFX">
+							<ShortName>SFX_Trees_Loop_01.wav</ShortName>
+							<Path>SFX\SFX_Trees_Loop_01_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 			</IncludedEvents>
+			<SwitchGroups>
+				<SwitchGroup Id="4064446173" Name="Surface_Type" ObjectPath="\Switches\Default Work Unit\Surface_Type">
+					<Switches>
+						<Switch Id="803837735" Name="Sand" ObjectPath="\Switches\Default Work Unit\Surface_Type\Sand"/>
+						<Switch Id="4248645337" Name="Grass" ObjectPath="\Switches\Default Work Unit\Surface_Type\Grass"/>
+						<Switch Id="2195636714" Name="Dirt" ObjectPath="\Switches\Default Work Unit\Surface_Type\Dirt"/>
+						<Switch Id="2144363834" Name="Rock" ObjectPath="\Switches\Default Work Unit\Surface_Type\Rock"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

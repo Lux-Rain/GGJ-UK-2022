@@ -1,18 +1,112 @@
 Event	ID	Name			Wwise Object Path	Notes
+	85412153	Ambience			\Default Work Unit\Ambience	
+	620878633	Music_Gameplay			\Default Work Unit\Music_Gameplay	
+	1059993718	Shovel_Take			\Default Work Unit\Shovel_Take	
+	1831829655	Book_Pages			\Default Work Unit\Book_Pages	
 	2012276773	Jump_Trampoline			\Default Work Unit\Jump_Trampoline	
+	2043534011	Camera_Zoom_Out			\Default Work Unit\Camera_Zoom_Out	
+	2053301760	Shovel_Digging			\Default Work Unit\Shovel_Digging	
+	2364952868	Photo_Quest			\Default Work Unit\Photo_Quest	
+	2385628198	Footsteps			\Default Work Unit\Footsteps	
+	2766569724	Camera_Zoom_In			\Default Work Unit\Camera_Zoom_In	
+	3882419280	Trees			\Default Work Unit\Trees	
+	4068392799	Photo_Random			\Default Work Unit\Photo_Random	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	4064446173	Surface_Type			\Default Work Unit\Surface_Type	
+
+Switch	ID	Name	Switch Group			Notes
+	803837735	Sand	Surface_Type			
+	2144363834	Rock	Surface_Type			
+	2195636714	Dirt	Surface_Type			
+	4248645337	Grass	Surface_Type			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	57088348	SFX_Trampoline_Jump_03	D:\Projects\Unity\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Trampoline Jumps\SFX_Trampoline_Jump_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Trampoline Jump\SFX_Trampoline_Jump_03		136064
-	93879239	SFX_Trampoline_Jump_02	D:\Projects\Unity\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Trampoline Jumps\SFX_Trampoline_Jump_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Trampoline Jump\SFX_Trampoline_Jump_02		136064
-	189311739	SFX_Trampoline_Jump_10	D:\Projects\Unity\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Trampoline Jumps\SFX_Trampoline_Jump_10_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Trampoline Jump\SFX_Trampoline_Jump_10		128064
-	279262114	SFX_Trampoline_Jump_12	D:\Projects\Unity\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Trampoline Jumps\SFX_Trampoline_Jump_12_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Trampoline Jump\SFX_Trampoline_Jump_12		136064
-	362380280	SFX_Trampoline_Jump_11	D:\Projects\Unity\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Trampoline Jumps\SFX_Trampoline_Jump_11_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Trampoline Jump\SFX_Trampoline_Jump_11		120064
-	390558577	SFX_Trampoline_Jump_13	D:\Projects\Unity\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Trampoline Jumps\SFX_Trampoline_Jump_13_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Trampoline Jump\SFX_Trampoline_Jump_13		120064
-	508121828	SFX_Trampoline_Jump_05	D:\Projects\Unity\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Trampoline Jumps\SFX_Trampoline_Jump_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Trampoline Jump\SFX_Trampoline_Jump_05		128064
-	603270312	SFX_Trampoline_Jump_06	D:\Projects\Unity\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Trampoline Jumps\SFX_Trampoline_Jump_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Trampoline Jump\SFX_Trampoline_Jump_06		128064
-	619990964	SFX_Trampoline_Jump_07	D:\Projects\Unity\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Trampoline Jumps\SFX_Trampoline_Jump_07_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Trampoline Jump\SFX_Trampoline_Jump_07		136064
-	672711343	SFX_Trampoline_Jump_01	D:\Projects\Unity\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Trampoline Jumps\SFX_Trampoline_Jump_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Trampoline Jump\SFX_Trampoline_Jump_01		144064
-	688407814	SFX_Trampoline_Jump_09	D:\Projects\Unity\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Trampoline Jumps\SFX_Trampoline_Jump_09_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Trampoline Jump\SFX_Trampoline_Jump_09		136064
-	891404583	SFX_Trampoline_Jump_04	D:\Projects\Unity\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Trampoline Jumps\SFX_Trampoline_Jump_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Trampoline Jump\SFX_Trampoline_Jump_04		128064
-	920578064	SFX_Trampoline_Jump_08	D:\Projects\Unity\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Trampoline Jumps\SFX_Trampoline_Jump_08_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Trampoline Jump\SFX_Trampoline_Jump_08		136064
+	29674287	FLY_Sand_Step_09	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Footsteps\Sand_Steps\FLY_Sand_Step_09_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Sand_Steps\FLY_Sand_Step_09		40064
+	29935779	SFX_Photo_02	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Photo Taking\SFX_Photo_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interactions\Photo_Snap\SFX_Photo_02		88264
+	57088348	SFX_Trampoline_Jump_03	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Trampoline Jumps\SFX_Trampoline_Jump_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interactions\Trampoline Jump\SFX_Trampoline_Jump_03		136064
+	65110934	FLY_Gravel_Step_07	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Footsteps\Dirt_Steps\FLY_Gravel_Step_07_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Dirt_Steps\FLY_Gravel_Step_07		53384
+	82799580	SFX_Shovel_Take_01	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Shovel\SFX_Shovel_Take_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interactions\Shovel_Take\SFX_Shovel_Take_01		89300
+	84549223	FLY_Gravel_Step_011	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Footsteps\Dirt_Steps\FLY_Gravel_Step_011_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Dirt_Steps\FLY_Gravel_Step_011		44752
+	93879239	SFX_Trampoline_Jump_02	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Trampoline Jumps\SFX_Trampoline_Jump_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interactions\Trampoline Jump\SFX_Trampoline_Jump_02		136064
+	102271720	AMB_Insects_Layer_00	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\AMB_Insects_Layer_00_7A5DAA70.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\AMB_Insects_Layer_00		15982528
+	119955333	FLY_Gravel_Step_02	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Footsteps\Dirt_Steps\FLY_Gravel_Step_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Dirt_Steps\FLY_Gravel_Step_02		66848
+	125003833	FLY_Sand_Step_11	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Footsteps\Sand_Steps\FLY_Sand_Step_11_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Sand_Steps\FLY_Sand_Step_11		32064
+	126864694	FLY_Sand_Step_00	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Footsteps\Sand_Steps\FLY_Sand_Step_00_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Sand_Steps\FLY_Sand_Step_00		52064
+	171663630	FLY_Book_Pages_04	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Book_Pages\FLY_Book_Pages_04_39E69988.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interactions\Book_Pages\FLY_Book_Pages_04		226812
+	189311739	SFX_Trampoline_Jump_10	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Trampoline Jumps\SFX_Trampoline_Jump_10_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interactions\Trampoline Jump\SFX_Trampoline_Jump_10		128064
+	190187066	SFX_Shovel_Dig_00	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Shovel\SFX_Shovel_Dig_00_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interactions\Shovel_Dig\SFX_Shovel_Dig_00		154416
+	215962258	SFX_Photo_03	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Photo Taking\SFX_Photo_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interactions\Photo_Snap\SFX_Photo_03		88264
+	228064426	FLY_Rock_Step_05	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Footsteps\Rock_Steps\FLY_Rock_Step_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Rock_Steps\FLY_Rock_Step_05		45256
+	237044875	SFX_Shovel_Take_00	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Shovel\SFX_Shovel_Take_00_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interactions\Shovel_Take\SFX_Shovel_Take_00		77240
+	271594297	SFX_Camera_Zoom_In_00	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Photo Taking\SFX_Camera_Zoom_In_00_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interactions\SFX_Camera_Zoom_In_00		89500
+	275629212	SFX_Successful_Photo_01	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Photo Taking\SFX_Successful_Photo_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interactions\SFX_Successful_Photo_01		744512
+	279262114	SFX_Trampoline_Jump_12	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Trampoline Jumps\SFX_Trampoline_Jump_12_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interactions\Trampoline Jump\SFX_Trampoline_Jump_12		136064
+	282746718	FLY_Gravel_Step_09	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Footsteps\Dirt_Steps\FLY_Gravel_Step_09_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Dirt_Steps\FLY_Gravel_Step_09		79932
+	328000929	SFX_Shovel_Dig_01	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Shovel\SFX_Shovel_Dig_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interactions\Shovel_Dig\SFX_Shovel_Dig_01		154416
+	331960533	FLY_Grass_Step_07	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Footsteps\Grass_Steps\FLY_Grass_Step_07_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Grass_Steps\FLY_Grass_Step_07		45224
+	338052932	FLY_Gravel_Step_03	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Footsteps\Dirt_Steps\FLY_Gravel_Step_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Dirt_Steps\FLY_Gravel_Step_03		50460
+	341427813	FLY_Sand_Step_03	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Footsteps\Sand_Steps\FLY_Sand_Step_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Sand_Steps\FLY_Sand_Step_03		40064
+	362380280	SFX_Trampoline_Jump_11	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Trampoline Jumps\SFX_Trampoline_Jump_11_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interactions\Trampoline Jump\SFX_Trampoline_Jump_11		120064
+	363657883	SFX_Photo_01	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Photo Taking\SFX_Photo_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interactions\Photo_Snap\SFX_Photo_01		88264
+	384379166	FLY_Grass_Step_02	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Footsteps\Grass_Steps\FLY_Grass_Step_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Grass_Steps\FLY_Grass_Step_02		53220
+	390558577	SFX_Trampoline_Jump_13	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Trampoline Jumps\SFX_Trampoline_Jump_13_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interactions\Trampoline Jump\SFX_Trampoline_Jump_13		120064
+	413970916	FLY_Grass_Step_012	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Footsteps\Grass_Steps\FLY_Grass_Step_012_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Grass_Steps\FLY_Grass_Step_012		45224
+	417870641	FLY_Book_Pages_06	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Book_Pages\FLY_Book_Pages_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interactions\Book_Pages\FLY_Book_Pages_06		288064
+	419919558	FLY_Book_Pages_05	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Book_Pages\FLY_Book_Pages_05_A85E5164.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interactions\Book_Pages\FLY_Book_Pages_05		225288
+	429085882	FLY_Grass_Step_00	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Footsteps\Grass_Steps\FLY_Grass_Step_00_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Grass_Steps\FLY_Grass_Step_00		47576
+	431181762	FLY_Book_Pages_07	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Book_Pages\FLY_Book_Pages_07_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interactions\Book_Pages\FLY_Book_Pages_07		288064
+	440390264	SFX_Camera_Zoom_Out_00	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Photo Taking\SFX_Camera_Zoom_Out_00_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interactions\SFX_Camera_Zoom_Out_00		85268
+	459940485	FLY_Grass_Step_05	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Footsteps\Grass_Steps\FLY_Grass_Step_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Grass_Steps\FLY_Grass_Step_05		51340
+	462006637	MUS_Music_Pad_and_Melody	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\MUS_Music_Pad_and_Melody_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music_Gameplay\MUS_Music_Pad_and_Melody		8998672
+	478968920	FLY_Book_Pages_08	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Book_Pages\FLY_Book_Pages_08_63B6B050.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interactions\Book_Pages\FLY_Book_Pages_08		311016
+	482922838	FLY_Rock_Step_06	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Footsteps\Rock_Steps\FLY_Rock_Step_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Rock_Steps\FLY_Rock_Step_06		43112
+	484788193	FLY_Gravel_Step_04	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Footsteps\Dirt_Steps\FLY_Gravel_Step_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Dirt_Steps\FLY_Gravel_Step_04		49636
+	496472504	FLY_Grass_Step_08	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Footsteps\Grass_Steps\FLY_Grass_Step_08_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Grass_Steps\FLY_Grass_Step_08		49456
+	498809000	FLY_Gravel_Step_01	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Footsteps\Dirt_Steps\FLY_Gravel_Step_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Dirt_Steps\FLY_Gravel_Step_01		48948
+	500498878	FLY_Grass_Step_06	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Footsteps\Grass_Steps\FLY_Grass_Step_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Grass_Steps\FLY_Grass_Step_06		48516
+	508121828	SFX_Trampoline_Jump_05	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Trampoline Jumps\SFX_Trampoline_Jump_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interactions\Trampoline Jump\SFX_Trampoline_Jump_05		128064
+	510241042	FLY_Gravel_Step_00	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Footsteps\Dirt_Steps\FLY_Gravel_Step_00_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Dirt_Steps\FLY_Gravel_Step_00		39076
+	521801974	AMB_Outside_Loop_00	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\AMB_Outside_Loop_00_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\AMB_Outside_Loop_00		15360064
+	541074855	FLY_Rock_Step_00	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Footsteps\Rock_Steps\FLY_Rock_Step_00_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Rock_Steps\FLY_Rock_Step_00		33408
+	552137381	FLY_Gravel_Step_010	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Footsteps\Dirt_Steps\FLY_Gravel_Step_010_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Dirt_Steps\FLY_Gravel_Step_010		49468
+	576299045	FLY_Rock_Step_03	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Footsteps\Rock_Steps\FLY_Rock_Step_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Rock_Steps\FLY_Rock_Step_03		45272
+	578820251	FLY_Sand_Step_02	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Footsteps\Sand_Steps\FLY_Sand_Step_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Sand_Steps\FLY_Sand_Step_02		60064
+	594746994	FLY_Rock_Step_01	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Footsteps\Rock_Steps\FLY_Rock_Step_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Rock_Steps\FLY_Rock_Step_01		30456
+	603270312	SFX_Trampoline_Jump_06	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Trampoline Jumps\SFX_Trampoline_Jump_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interactions\Trampoline Jump\SFX_Trampoline_Jump_06		128064
+	616242715	FLY_Rock_Step_07	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Footsteps\Rock_Steps\FLY_Rock_Step_07_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Rock_Steps\FLY_Rock_Step_07		36712
+	617193352	FLY_Gravel_Step_08	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Footsteps\Dirt_Steps\FLY_Gravel_Step_08_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Dirt_Steps\FLY_Gravel_Step_08		59276
+	619798350	FLY_Sand_Step_08	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Footsteps\Sand_Steps\FLY_Sand_Step_08_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Sand_Steps\FLY_Sand_Step_08		40064
+	619990964	SFX_Trampoline_Jump_07	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Trampoline Jumps\SFX_Trampoline_Jump_07_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interactions\Trampoline Jump\SFX_Trampoline_Jump_07		136064
+	627174857	FLY_Gravel_Step_05	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Footsteps\Dirt_Steps\FLY_Gravel_Step_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Dirt_Steps\FLY_Gravel_Step_05		64924
+	652355706	FLY_Rock_Step_04	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Footsteps\Rock_Steps\FLY_Rock_Step_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Rock_Steps\FLY_Rock_Step_04		45624
+	672711343	SFX_Trampoline_Jump_01	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Trampoline Jumps\SFX_Trampoline_Jump_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interactions\Trampoline Jump\SFX_Trampoline_Jump_01		144064
+	688407814	SFX_Trampoline_Jump_09	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Trampoline Jumps\SFX_Trampoline_Jump_09_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interactions\Trampoline Jump\SFX_Trampoline_Jump_09		136064
+	690958677	FLY_Sand_Step_01	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Footsteps\Sand_Steps\FLY_Sand_Step_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Sand_Steps\FLY_Sand_Step_01		52064
+	695240229	FLY_Rock_Step_010	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Footsteps\Rock_Steps\FLY_Rock_Step_010_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Rock_Steps\FLY_Rock_Step_010		34696
+	696290281	FLY_Grass_Step_04	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Footsteps\Grass_Steps\FLY_Grass_Step_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Grass_Steps\FLY_Grass_Step_04		60748
+	716691824	FLY_Sand_Step_06	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Footsteps\Sand_Steps\FLY_Sand_Step_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Sand_Steps\FLY_Sand_Step_06		44064
+	729220212	FLY_Gravel_Step_012	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Footsteps\Dirt_Steps\FLY_Gravel_Step_012_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Dirt_Steps\FLY_Gravel_Step_012		36904
+	742548728	FLY_Rock_Step_09	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Footsteps\Rock_Steps\FLY_Rock_Step_09_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Rock_Steps\FLY_Rock_Step_09		40504
+	758139909	FLY_Book_Pages_09	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Book_Pages\FLY_Book_Pages_09_630B2BB5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interactions\Book_Pages\FLY_Book_Pages_09		294784
+	766129979	FLY_Rock_Step_08	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Footsteps\Rock_Steps\FLY_Rock_Step_08_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Rock_Steps\FLY_Rock_Step_08		43384
+	767902281	FLY_Grass_Step_01	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Footsteps\Grass_Steps\FLY_Grass_Step_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Grass_Steps\FLY_Grass_Step_01		59336
+	769707766	FLY_Grass_Step_03	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Footsteps\Grass_Steps\FLY_Grass_Step_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Grass_Steps\FLY_Grass_Step_03		54160
+	779985187	FLY_Grass_Step_09	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Footsteps\Grass_Steps\FLY_Grass_Step_09_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Grass_Steps\FLY_Grass_Step_09		48048
+	787337190	FLY_Rock_Step_02	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Footsteps\Rock_Steps\FLY_Rock_Step_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Rock_Steps\FLY_Rock_Step_02		34808
+	795081752	FLY_Sand_Step_04	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Footsteps\Sand_Steps\FLY_Sand_Step_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Sand_Steps\FLY_Sand_Step_04		48064
+	810845581	FLY_Sand_Step_10	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Footsteps\Sand_Steps\FLY_Sand_Step_10_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Sand_Steps\FLY_Sand_Step_10		36064
+	841980199	SFX_Trees_Loop_01	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\SFX_Trees_Loop_01_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Spot_Sounds\SFX_Trees_Loop_01		23316368
+	843167269	SFX_Shovel_Dig_02	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Shovel\SFX_Shovel_Dig_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interactions\Shovel_Dig\SFX_Shovel_Dig_02		154416
+	852552896	FLY_Sand_Step_07	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Footsteps\Sand_Steps\FLY_Sand_Step_07_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Sand_Steps\FLY_Sand_Step_07		44064
+	885972452	FLY_Sand_Step_12	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Footsteps\Sand_Steps\FLY_Sand_Step_12_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Sand_Steps\FLY_Sand_Step_12		32064
+	891404583	SFX_Trampoline_Jump_04	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Trampoline Jumps\SFX_Trampoline_Jump_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interactions\Trampoline Jump\SFX_Trampoline_Jump_04		128064
+	920578064	SFX_Trampoline_Jump_08	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Trampoline Jumps\SFX_Trampoline_Jump_08_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interactions\Trampoline Jump\SFX_Trampoline_Jump_08		136064
+	927389751	FLY_Sand_Step_05	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Footsteps\Sand_Steps\FLY_Sand_Step_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Sand_Steps\FLY_Sand_Step_05		44064
+	939912382	FLY_Grass_Step_011	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Footsteps\Grass_Steps\FLY_Grass_Step_011_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Grass_Steps\FLY_Grass_Step_011		48988
+	973239422	FLY_Rock_Step_012	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Footsteps\Rock_Steps\FLY_Rock_Step_012_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Rock_Steps\FLY_Rock_Step_012		30456
+	978151321	FLY_Rock_Step_011	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Footsteps\Rock_Steps\FLY_Rock_Step_011_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Rock_Steps\FLY_Rock_Step_011		33408
+	986489408	SFX_Shovel_Take_02	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Shovel\SFX_Shovel_Take_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interactions\Shovel_Take\SFX_Shovel_Take_02		77240
+	996016406	FLY_Grass_Step_010	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Footsteps\Grass_Steps\FLY_Grass_Step_010_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Grass_Steps\FLY_Grass_Step_010		51808
+	1017138279	FLY_Gravel_Step_06	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\SFX\Footsteps\Dirt_Steps\FLY_Gravel_Step_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Dirt_Steps\FLY_Gravel_Step_06		86556
 
