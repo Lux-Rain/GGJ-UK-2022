@@ -1,15 +1,17 @@
 Event	ID	Name			Wwise Object Path	Notes
 	85412153	Ambience			\Default Work Unit\Ambience	
-	620878633	Music_Gameplay			\Default Work Unit\Music_Gameplay	
 	1059993718	Shovel_Take			\Default Work Unit\Shovel_Take	
 	1831829655	Book_Pages			\Default Work Unit\Book_Pages	
 	2012276773	Jump_Trampoline			\Default Work Unit\Jump_Trampoline	
 	2043534011	Camera_Zoom_Out			\Default Work Unit\Camera_Zoom_Out	
 	2053301760	Shovel_Digging			\Default Work Unit\Shovel_Digging	
+	2118900976	UI_Hover			\Default Work Unit\UI_Hover	
 	2364952868	Photo_Quest			\Default Work Unit\Photo_Quest	
+	2382194672	UI_Play			\Default Work Unit\UI_Play	
 	2385628198	Footsteps			\Default Work Unit\Footsteps	
 	2766569724	Camera_Zoom_In			\Default Work Unit\Camera_Zoom_In	
 	3882419280	Trees			\Default Work Unit\Trees	
+	3991942870	Music			\Default Work Unit\Music	
 	4068392799	Photo_Random			\Default Work Unit\Photo_Random	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
@@ -20,6 +22,19 @@ Switch	ID	Name	Switch Group			Notes
 	2144363834	Rock	Surface_Type			
 	2195636714	Dirt	Surface_Type			
 	4248645337	Grass	Surface_Type			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	3991942870	Music			\Default Work Unit\Music	
+
+State	ID	Name	State Group			Notes
+	89505537	Gameplay	Music			
+	748895195	None	Music			
+	2607556080	Menu	Music			
+	3711779106	Time_Capsule	Music			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	496033121	Gameplay	Music	\Interactive Music Hierarchy\Default Work Unit\Music Switch\Menu		
+	836524603	Menu	Music	\Interactive Music Hierarchy\Default Work Unit\Music Switch\Gameplay		
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	29674287	FLY_Sand_Step_09	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Mac\SFX\Footsteps\Sand_Steps\FLY_Sand_Step_09_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Sand_Steps\FLY_Sand_Step_09		40064
@@ -43,6 +58,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	275629212	SFX_Successful_Photo_01	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Mac\SFX\Photo Taking\SFX_Successful_Photo_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interactions\SFX_Successful_Photo_01		744512
 	279262114	SFX_Trampoline_Jump_12	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Mac\SFX\Trampoline Jumps\SFX_Trampoline_Jump_12_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interactions\Trampoline Jump\SFX_Trampoline_Jump_12		136064
 	282746718	FLY_Gravel_Step_09	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Mac\SFX\Footsteps\Dirt_Steps\FLY_Gravel_Step_09_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Dirt_Steps\FLY_Gravel_Step_09		79932
+	301917649	MUS_Time_Capsule	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Mac\SFX\MUS_Time_Capsule_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music Switch\Time_Capsule\MUS_Time_Capsule\MUS_Time_Capsule		7526464
 	328000929	SFX_Shovel_Dig_01	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Mac\SFX\Shovel\SFX_Shovel_Dig_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interactions\Shovel_Dig\SFX_Shovel_Dig_01		154416
 	331960533	FLY_Grass_Step_07	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Mac\SFX\Footsteps\Grass_Steps\FLY_Grass_Step_07_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Grass_Steps\FLY_Grass_Step_07		45224
 	338052932	FLY_Gravel_Step_03	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Mac\SFX\Footsteps\Dirt_Steps\FLY_Gravel_Step_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Dirt_Steps\FLY_Gravel_Step_03		50460
@@ -58,8 +74,9 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	431181762	FLY_Book_Pages_07	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Mac\SFX\Book_Pages\FLY_Book_Pages_07_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interactions\Book_Pages\FLY_Book_Pages_07		288064
 	440390264	SFX_Camera_Zoom_Out_00	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Mac\SFX\Photo Taking\SFX_Camera_Zoom_Out_00_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interactions\SFX_Camera_Zoom_Out_00		85268
 	459940485	FLY_Grass_Step_05	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Mac\SFX\Footsteps\Grass_Steps\FLY_Grass_Step_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Grass_Steps\FLY_Grass_Step_05		51340
-	462006637	MUS_Music_Pad_and_Melody	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Mac\SFX\MUS_Music_Pad_and_Melody_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music_Gameplay\MUS_Music_Pad_and_Melody		8998672
+	462006637	MUS_Music_Pad_and_Melody	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Mac\SFX\MUS_Music_Pad_and_Melody_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music Switch\Gameplay\Music_Gameplay\MUS_Music_Pad_and_Melody		8998672
 	478968920	FLY_Book_Pages_08	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Mac\SFX\Book_Pages\FLY_Book_Pages_08_63B6B050.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interactions\Book_Pages\FLY_Book_Pages_08		311016
+	481739544	MUS_Menu	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Mac\SFX\MUS_Menu_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music Switch\Menu\Music_Menu\MUS_Menu		9031744
 	482922838	FLY_Rock_Step_06	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Mac\SFX\Footsteps\Rock_Steps\FLY_Rock_Step_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Rock_Steps\FLY_Rock_Step_06		43112
 	484788193	FLY_Gravel_Step_04	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Mac\SFX\Footsteps\Dirt_Steps\FLY_Gravel_Step_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Dirt_Steps\FLY_Gravel_Step_04		49636
 	496472504	FLY_Grass_Step_08	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Mac\SFX\Footsteps\Grass_Steps\FLY_Grass_Step_08_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Grass_Steps\FLY_Grass_Step_08		49456
@@ -80,6 +97,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	619990964	SFX_Trampoline_Jump_07	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Mac\SFX\Trampoline Jumps\SFX_Trampoline_Jump_07_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interactions\Trampoline Jump\SFX_Trampoline_Jump_07		136064
 	627174857	FLY_Gravel_Step_05	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Mac\SFX\Footsteps\Dirt_Steps\FLY_Gravel_Step_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Dirt_Steps\FLY_Gravel_Step_05		64924
 	652355706	FLY_Rock_Step_04	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Mac\SFX\Footsteps\Rock_Steps\FLY_Rock_Step_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Rock_Steps\FLY_Rock_Step_04		45624
+	664047712	UI_Hover_00	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Mac\SFX\UI\UI_Hover_00_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_Hover_00		24064
 	672711343	SFX_Trampoline_Jump_01	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Mac\SFX\Trampoline Jumps\SFX_Trampoline_Jump_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interactions\Trampoline Jump\SFX_Trampoline_Jump_01		144064
 	688407814	SFX_Trampoline_Jump_09	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Mac\SFX\Trampoline Jumps\SFX_Trampoline_Jump_09_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interactions\Trampoline Jump\SFX_Trampoline_Jump_09		136064
 	690958677	FLY_Sand_Step_01	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Mac\SFX\Footsteps\Sand_Steps\FLY_Sand_Step_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Sand_Steps\FLY_Sand_Step_01		52064
@@ -106,6 +124,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	939912382	FLY_Grass_Step_011	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Mac\SFX\Footsteps\Grass_Steps\FLY_Grass_Step_011_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Grass_Steps\FLY_Grass_Step_011		48988
 	973239422	FLY_Rock_Step_012	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Mac\SFX\Footsteps\Rock_Steps\FLY_Rock_Step_012_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Rock_Steps\FLY_Rock_Step_012		30456
 	978151321	FLY_Rock_Step_011	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Mac\SFX\Footsteps\Rock_Steps\FLY_Rock_Step_011_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Rock_Steps\FLY_Rock_Step_011		33408
+	986052881	UI_New_Game_00	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Mac\SFX\UI\UI_New_Game_00_A53F81EA.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_New_Game_00		239808
 	986489408	SFX_Shovel_Take_02	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Mac\SFX\Shovel\SFX_Shovel_Take_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interactions\Shovel_Take\SFX_Shovel_Take_02		77240
 	996016406	FLY_Grass_Step_010	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Mac\SFX\Footsteps\Grass_Steps\FLY_Grass_Step_010_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Grass_Steps\FLY_Grass_Step_010		51808
 	1017138279	FLY_Gravel_Step_06	D:\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Mac\SFX\Footsteps\Dirt_Steps\FLY_Gravel_Step_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Dirt_Steps\FLY_Gravel_Step_06		86556
