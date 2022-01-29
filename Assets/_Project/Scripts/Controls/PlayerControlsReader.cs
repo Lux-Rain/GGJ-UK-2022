@@ -11,6 +11,7 @@ public class PlayerControlsReader : ScriptableObject, Controls.INormalActions, C
     public Action<Vector2> OnLookEvent;
     public Action<bool> OnRunEvent;
     public Action OnJumpEvent;
+    public Action OnBookEvent;
     public Action OnCaptureEvent;
     public Action<bool> OnCameraEvent;
     public Action<float> OnZoomEvent;
@@ -82,6 +83,14 @@ public class PlayerControlsReader : ScriptableObject, Controls.INormalActions, C
         } else if (context.canceled)
         {
             OnCameraEvent?.Invoke(false);
+        }
+    }
+
+    public void OnBook(InputAction.CallbackContext context)
+    {
+        if (context.performed)
+        {
+            OnBookEvent?.Invoke();
         }
     }
 
