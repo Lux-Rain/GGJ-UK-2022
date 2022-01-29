@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{6FFCCEF9-E817-4F63-9CA0-12B710499506}" SchemaVersion="97">
 	<SoundBanks>
-		<WorkUnit Name="Default Work Unit" ID="{6FFCCEF9-E817-4F63-9CA0-12B710499506}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{6FFCCEF9-E817-4F63-9CA0-12B710499506}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main" ID="{3134F1CC-32EF-4603-AB5A-49049958B74E}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Jump_Trampoline" ID="{54ED10F9-EF06-4D38-9E63-DC2E285B414F}" WorkUnitID="{CA4A36B3-EBE4-467E-8A0A-1D02A96903A4}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundBanks>
 </WwiseDocument>

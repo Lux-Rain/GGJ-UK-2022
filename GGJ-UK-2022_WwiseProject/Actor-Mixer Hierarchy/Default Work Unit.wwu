@@ -1,6 +1,365 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{60951CF5-A77E-48C0-B3A0-6721FBCC7C0F}" SchemaVersion="97">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{60951CF5-A77E-48C0-B3A0-6721FBCC7C0F}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{60951CF5-A77E-48C0-B3A0-6721FBCC7C0F}" PersistMode="Standalone">
+			<ChildrenList>
+				<RandomSequenceContainer Name="Trampoline Jump" ID="{33B517F5-593C-4A9C-8F81-1B51061FAC3C}" ShortID="187948392">
+					<PropertyList>
+						<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+						<Property Name="OutputBusVolume" Type="Real64">
+							<ValueList>
+								<Value>12</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{18C676A4-2040-412F-9ACE-0BEC106B0E0A}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="300"/>
+											<Property Name="Min" Type="Real64" Value="-300"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{164390E9-2F50-483F-925F-2C5FE03A6A0D}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{24BAA5A5-4350-4502-90F5-2ACD5FE9A101}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="SFX_Trampoline_Jump_05" ID="{82CD40AF-7599-4D39-8D88-EBB17546DC39}" ShortID="1024233084">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{164390E9-2F50-483F-925F-2C5FE03A6A0D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{24BAA5A5-4350-4502-90F5-2ACD5FE9A101}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_Trampoline_Jump_05" ID="{26DA91B6-16C0-4665-8926-28AFF602B4BF}">
+									<Language>SFX</Language>
+									<AudioFile>Trampoline Jumps\SFX_Trampoline_Jump_05.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="508121828"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_Trampoline_Jump_05" ID="{26DA91B6-16C0-4665-8926-28AFF602B4BF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX_Trampoline_Jump_06" ID="{417B2F4C-7FC8-4720-8A18-E90CB0F9D66E}" ShortID="682836631">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{1F7E0DCC-213B-45DA-B95B-7D4F01691B1A}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{164390E9-2F50-483F-925F-2C5FE03A6A0D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{24BAA5A5-4350-4502-90F5-2ACD5FE9A101}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_Trampoline_Jump_06" ID="{5E3A31DD-58CC-409E-8655-790FBE4BE4C4}">
+									<Language>SFX</Language>
+									<AudioFile>Trampoline Jumps\SFX_Trampoline_Jump_06.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="603270312"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_Trampoline_Jump_06" ID="{5E3A31DD-58CC-409E-8655-790FBE4BE4C4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX_Trampoline_Jump_02" ID="{893F1BAE-3BF7-4250-B430-5A2F5F05D05F}" ShortID="222990705">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{EFB1495A-2975-4EFC-8325-4531D19CBF1F}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{164390E9-2F50-483F-925F-2C5FE03A6A0D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{24BAA5A5-4350-4502-90F5-2ACD5FE9A101}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_Trampoline_Jump_02" ID="{2EABA876-D488-42F4-811E-970A316CD25B}">
+									<Language>SFX</Language>
+									<AudioFile>Trampoline Jumps\SFX_Trampoline_Jump_02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="93879239"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_Trampoline_Jump_02" ID="{2EABA876-D488-42F4-811E-970A316CD25B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX_Trampoline_Jump_01" ID="{9BA007FE-2265-446E-9DD8-02D00A519B67}" ShortID="192635411">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{5652EA32-0385-4F04-AE6D-0CD1955D3940}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{164390E9-2F50-483F-925F-2C5FE03A6A0D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{24BAA5A5-4350-4502-90F5-2ACD5FE9A101}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_Trampoline_Jump_01" ID="{33706364-1DAB-4E60-8400-C400951CEB45}">
+									<Language>SFX</Language>
+									<AudioFile>Trampoline Jumps\SFX_Trampoline_Jump_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="672711343"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_Trampoline_Jump_01" ID="{33706364-1DAB-4E60-8400-C400951CEB45}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX_Trampoline_Jump_03" ID="{C325B53A-118E-40C5-9A7A-6B85238018D9}" ShortID="445584272">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{164390E9-2F50-483F-925F-2C5FE03A6A0D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{24BAA5A5-4350-4502-90F5-2ACD5FE9A101}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_Trampoline_Jump_03" ID="{5150CEAD-3482-43CB-AE71-D7F18A02F273}">
+									<Language>SFX</Language>
+									<AudioFile>Trampoline Jumps\SFX_Trampoline_Jump_03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="57088348"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_Trampoline_Jump_03" ID="{5150CEAD-3482-43CB-AE71-D7F18A02F273}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX_Trampoline_Jump_04" ID="{852F74D3-313D-441B-9095-D9668A3C8B44}" ShortID="376135547">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{164390E9-2F50-483F-925F-2C5FE03A6A0D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{24BAA5A5-4350-4502-90F5-2ACD5FE9A101}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_Trampoline_Jump_04" ID="{174A4317-ED54-41B7-91C4-2339D1E18687}">
+									<Language>SFX</Language>
+									<AudioFile>Trampoline Jumps\SFX_Trampoline_Jump_04.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="891404583"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_Trampoline_Jump_04" ID="{174A4317-ED54-41B7-91C4-2339D1E18687}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX_Trampoline_Jump_09" ID="{97DFDE2E-27BC-4681-A444-3551ED2B9174}" ShortID="439114457">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{164390E9-2F50-483F-925F-2C5FE03A6A0D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{24BAA5A5-4350-4502-90F5-2ACD5FE9A101}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_Trampoline_Jump_09" ID="{C7BC95AA-E2C1-4DEA-B39E-F8F0FFDB28B4}">
+									<Language>SFX</Language>
+									<AudioFile>Trampoline Jumps\SFX_Trampoline_Jump_09.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="688407814"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_Trampoline_Jump_09" ID="{C7BC95AA-E2C1-4DEA-B39E-F8F0FFDB28B4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX_Trampoline_Jump_10" ID="{B6795573-CB3E-4318-A6C3-8306685CE38A}" ShortID="594416804">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{164390E9-2F50-483F-925F-2C5FE03A6A0D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{24BAA5A5-4350-4502-90F5-2ACD5FE9A101}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_Trampoline_Jump_10" ID="{91D64E12-C7E8-464D-A66E-7681203E38DD}">
+									<Language>SFX</Language>
+									<AudioFile>Trampoline Jumps\SFX_Trampoline_Jump_10.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="189311739"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_Trampoline_Jump_10" ID="{91D64E12-C7E8-464D-A66E-7681203E38DD}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX_Trampoline_Jump_11" ID="{903DFD5B-1CEF-4A34-A0C9-84F734AB9FFF}" ShortID="219273287">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{164390E9-2F50-483F-925F-2C5FE03A6A0D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{24BAA5A5-4350-4502-90F5-2ACD5FE9A101}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_Trampoline_Jump_11" ID="{0E4240F8-4F9B-45EF-A7C2-E1CF1B4178B7}">
+									<Language>SFX</Language>
+									<AudioFile>Trampoline Jumps\SFX_Trampoline_Jump_11.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="362380280"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_Trampoline_Jump_11" ID="{0E4240F8-4F9B-45EF-A7C2-E1CF1B4178B7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX_Trampoline_Jump_13" ID="{1164A8AE-3631-436D-B4A0-D0FAB852E867}" ShortID="714755563">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{F5BA1626-DF8D-4648-9103-AB6BB0766672}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{164390E9-2F50-483F-925F-2C5FE03A6A0D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{24BAA5A5-4350-4502-90F5-2ACD5FE9A101}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_Trampoline_Jump_13" ID="{5D47104B-6688-4C0A-8665-2C3F7F40982A}">
+									<Language>SFX</Language>
+									<AudioFile>Trampoline Jumps\SFX_Trampoline_Jump_13.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="390558577"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_Trampoline_Jump_13" ID="{5D47104B-6688-4C0A-8665-2C3F7F40982A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX_Trampoline_Jump_08" ID="{5E91D962-34A8-46CB-A3BC-B10160ECE1AB}" ShortID="793934756">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{164390E9-2F50-483F-925F-2C5FE03A6A0D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{24BAA5A5-4350-4502-90F5-2ACD5FE9A101}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_Trampoline_Jump_08" ID="{FF58EF94-4BCB-4149-9EC8-84821D47F998}">
+									<Language>SFX</Language>
+									<AudioFile>Trampoline Jumps\SFX_Trampoline_Jump_08.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="920578064"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_Trampoline_Jump_08" ID="{FF58EF94-4BCB-4149-9EC8-84821D47F998}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX_Trampoline_Jump_07" ID="{EE84EC33-660D-4F77-9A69-3DEBECAE1C0B}" ShortID="815557716">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{164390E9-2F50-483F-925F-2C5FE03A6A0D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{24BAA5A5-4350-4502-90F5-2ACD5FE9A101}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_Trampoline_Jump_07" ID="{9A274ECB-0797-4A26-9C59-7A21C0AFDA30}">
+									<Language>SFX</Language>
+									<AudioFile>Trampoline Jumps\SFX_Trampoline_Jump_07.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="619990964"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_Trampoline_Jump_07" ID="{9A274ECB-0797-4A26-9C59-7A21C0AFDA30}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX_Trampoline_Jump_12" ID="{70934398-5656-42ED-93BD-34F686816ECA}" ShortID="498583081">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{164390E9-2F50-483F-925F-2C5FE03A6A0D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{24BAA5A5-4350-4502-90F5-2ACD5FE9A101}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_Trampoline_Jump_12" ID="{346FD49D-A7EA-4576-9A29-4EB9C0B8C23C}">
+									<Language>SFX</Language>
+									<AudioFile>Trampoline Jumps\SFX_Trampoline_Jump_12.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="279262114"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_Trampoline_Jump_12" ID="{346FD49D-A7EA-4576-9A29-4EB9C0B8C23C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

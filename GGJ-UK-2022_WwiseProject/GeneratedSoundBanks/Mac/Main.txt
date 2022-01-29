@@ -1,0 +1,18 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2012276773	Jump_Trampoline			\Default Work Unit\Jump_Trampoline	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	57088348	SFX_Trampoline_Jump_03	D:\Projects\Unity\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Mac\SFX\Trampoline Jumps\SFX_Trampoline_Jump_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Trampoline Jump\SFX_Trampoline_Jump_03		136064
+	93879239	SFX_Trampoline_Jump_02	D:\Projects\Unity\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Mac\SFX\Trampoline Jumps\SFX_Trampoline_Jump_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Trampoline Jump\SFX_Trampoline_Jump_02		136064
+	189311739	SFX_Trampoline_Jump_10	D:\Projects\Unity\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Mac\SFX\Trampoline Jumps\SFX_Trampoline_Jump_10_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Trampoline Jump\SFX_Trampoline_Jump_10		128064
+	279262114	SFX_Trampoline_Jump_12	D:\Projects\Unity\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Mac\SFX\Trampoline Jumps\SFX_Trampoline_Jump_12_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Trampoline Jump\SFX_Trampoline_Jump_12		136064
+	362380280	SFX_Trampoline_Jump_11	D:\Projects\Unity\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Mac\SFX\Trampoline Jumps\SFX_Trampoline_Jump_11_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Trampoline Jump\SFX_Trampoline_Jump_11		120064
+	390558577	SFX_Trampoline_Jump_13	D:\Projects\Unity\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Mac\SFX\Trampoline Jumps\SFX_Trampoline_Jump_13_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Trampoline Jump\SFX_Trampoline_Jump_13		120064
+	508121828	SFX_Trampoline_Jump_05	D:\Projects\Unity\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Mac\SFX\Trampoline Jumps\SFX_Trampoline_Jump_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Trampoline Jump\SFX_Trampoline_Jump_05		128064
+	603270312	SFX_Trampoline_Jump_06	D:\Projects\Unity\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Mac\SFX\Trampoline Jumps\SFX_Trampoline_Jump_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Trampoline Jump\SFX_Trampoline_Jump_06		128064
+	619990964	SFX_Trampoline_Jump_07	D:\Projects\Unity\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Mac\SFX\Trampoline Jumps\SFX_Trampoline_Jump_07_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Trampoline Jump\SFX_Trampoline_Jump_07		136064
+	672711343	SFX_Trampoline_Jump_01	D:\Projects\Unity\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Mac\SFX\Trampoline Jumps\SFX_Trampoline_Jump_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Trampoline Jump\SFX_Trampoline_Jump_01		144064
+	688407814	SFX_Trampoline_Jump_09	D:\Projects\Unity\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Mac\SFX\Trampoline Jumps\SFX_Trampoline_Jump_09_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Trampoline Jump\SFX_Trampoline_Jump_09		136064
+	891404583	SFX_Trampoline_Jump_04	D:\Projects\Unity\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Mac\SFX\Trampoline Jumps\SFX_Trampoline_Jump_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Trampoline Jump\SFX_Trampoline_Jump_04		128064
+	920578064	SFX_Trampoline_Jump_08	D:\Projects\Unity\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Mac\SFX\Trampoline Jumps\SFX_Trampoline_Jump_08_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Trampoline Jump\SFX_Trampoline_Jump_08		136064
+
