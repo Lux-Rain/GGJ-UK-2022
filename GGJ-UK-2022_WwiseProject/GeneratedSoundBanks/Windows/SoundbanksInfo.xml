@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
+	<RootPaths>
+		<ProjectRoot>D:\Projects\Unity\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>D:\Projects\Unity\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Projects\Unity\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\Projects\Unity\GGJ-UK-2022\GGJ-UK-2022_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="4204904655">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX" Hash="626793006">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2012276773" Name="Jump_Trampoline" ObjectPath="\Events\Default Work Unit\Jump_Trampoline" DurationType="OneShot" DurationMin="0.525560" DurationMax="0.891905">
+					<IncludedMemoryFiles>
+						<File Id="57088348" Language="SFX">
+							<ShortName>Trampoline Jumps\SFX_Trampoline_Jump_03.wav</ShortName>
+							<Path>SFX\Trampoline Jumps\SFX_Trampoline_Jump_03_10C4C929.wem</Path>
+						</File>
+						<File Id="93879239" Language="SFX">
+							<ShortName>Trampoline Jumps\SFX_Trampoline_Jump_02.wav</ShortName>
+							<Path>SFX\Trampoline Jumps\SFX_Trampoline_Jump_02_10C4C929.wem</Path>
+						</File>
+						<File Id="189311739" Language="SFX">
+							<ShortName>Trampoline Jumps\SFX_Trampoline_Jump_10.wav</ShortName>
+							<Path>SFX\Trampoline Jumps\SFX_Trampoline_Jump_10_10C4C929.wem</Path>
+						</File>
+						<File Id="279262114" Language="SFX">
+							<ShortName>Trampoline Jumps\SFX_Trampoline_Jump_12.wav</ShortName>
+							<Path>SFX\Trampoline Jumps\SFX_Trampoline_Jump_12_10C4C929.wem</Path>
+						</File>
+						<File Id="362380280" Language="SFX">
+							<ShortName>Trampoline Jumps\SFX_Trampoline_Jump_11.wav</ShortName>
+							<Path>SFX\Trampoline Jumps\SFX_Trampoline_Jump_11_10C4C929.wem</Path>
+						</File>
+						<File Id="390558577" Language="SFX">
+							<ShortName>Trampoline Jumps\SFX_Trampoline_Jump_13.wav</ShortName>
+							<Path>SFX\Trampoline Jumps\SFX_Trampoline_Jump_13_10C4C929.wem</Path>
+						</File>
+						<File Id="508121828" Language="SFX">
+							<ShortName>Trampoline Jumps\SFX_Trampoline_Jump_05.wav</ShortName>
+							<Path>SFX\Trampoline Jumps\SFX_Trampoline_Jump_05_10C4C929.wem</Path>
+						</File>
+						<File Id="603270312" Language="SFX">
+							<ShortName>Trampoline Jumps\SFX_Trampoline_Jump_06.wav</ShortName>
+							<Path>SFX\Trampoline Jumps\SFX_Trampoline_Jump_06_10C4C929.wem</Path>
+						</File>
+						<File Id="619990964" Language="SFX">
+							<ShortName>Trampoline Jumps\SFX_Trampoline_Jump_07.wav</ShortName>
+							<Path>SFX\Trampoline Jumps\SFX_Trampoline_Jump_07_10C4C929.wem</Path>
+						</File>
+						<File Id="672711343" Language="SFX">
+							<ShortName>Trampoline Jumps\SFX_Trampoline_Jump_01.wav</ShortName>
+							<Path>SFX\Trampoline Jumps\SFX_Trampoline_Jump_01_10C4C929.wem</Path>
+						</File>
+						<File Id="688407814" Language="SFX">
+							<ShortName>Trampoline Jumps\SFX_Trampoline_Jump_09.wav</ShortName>
+							<Path>SFX\Trampoline Jumps\SFX_Trampoline_Jump_09_10C4C929.wem</Path>
+						</File>
+						<File Id="891404583" Language="SFX">
+							<ShortName>Trampoline Jumps\SFX_Trampoline_Jump_04.wav</ShortName>
+							<Path>SFX\Trampoline Jumps\SFX_Trampoline_Jump_04_10C4C929.wem</Path>
+						</File>
+						<File Id="920578064" Language="SFX">
+							<ShortName>Trampoline Jumps\SFX_Trampoline_Jump_08.wav</ShortName>
+							<Path>SFX\Trampoline Jumps\SFX_Trampoline_Jump_08_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
