@@ -59,7 +59,7 @@
 						<CurrentStateRef Name="Time_Capsule" ID="{E61D5C22-D9DC-4CDE-96C1-9991DDC4F242}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Grass" ID="{ABA5116E-8369-41B3-BEC1-EBB4A0F67356}"/>
+						<CurrentSwitchRef Name="Dirt" ID="{53EEF714-234F-4887-BB57-D4641A99C60B}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>

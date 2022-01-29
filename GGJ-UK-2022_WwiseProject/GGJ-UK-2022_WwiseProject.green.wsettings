@@ -39,6 +39,7 @@
 				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value=""/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
 				<Property Name="Interactive Music\x64_{88BA94FE-BC92-43AB-88D5-F14E7364C708} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D+amZmZmZnxPwAAAAAAEG9AAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
+				<Property Name="Interactive Music\x64_{C76DA15E-8B60-4763-921E-9A91D2E21110} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP/v/////SzdAAAAAAAAA8D8AAAAAAIBgQAAAAAAAAAAA"/>
 				<Property Name="Interactive Music\x64_{C7BBDEB7-5496-4A10-9A71-872C63F3D993} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPwAAAAAAEG9AAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>
@@ -51,6 +52,7 @@
 				<Property Name="MonitoringManager\GameObjectFilter\GameObjectFiltersEnable" Type="bool" Value="True"/>
 				<Property Name="MonitoringManager\GameObjectFilter\x64_GameObjectFilters" Type="string" Value=""/>
 				<Property Name="Music Transition List\{16C1F513-4EC1-4026-B09A-F54B3497D1DA}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Music Transition List\{D3E57C4A-825E-4160-A0E1-78805F6D7678}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{DE0BEC47-B2DF-4924-B58B-52CD9500C803}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{E857C092-FB7D-4D16-8C7E-6D5E251E4A99}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\FirstVisible_10_1" Type="string" Value="{4C96B38B-3DB4-40C7-91C9-665510E38993}"/>
@@ -62,7 +64,7 @@
 				<Property Name="ProjectExplorer\FirstVisible_8_1" Type="string" Value="{41093F77-829F-4D88-8601-E8B25F3D4781}"/>
 				<Property Name="ProjectExplorer\x64_Expanded_10_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_11_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_12_1" Type="string" Value="tjM0KdNNuUOAIEgYFrEjjUfsC97fsiRJtYtSzZUAyAO33rvHllQQSppxhyxj89mT"/>
+				<Property Name="ProjectExplorer\x64_Expanded_12_1" Type="string" Value="tjM0KdNNuUOAIEgYFrEjjUfsC97fsiRJtYtSzZUAyAM="/>
 				<Property Name="ProjectExplorer\x64_Expanded_13_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_14_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_15_1" Type="string" Value=""/>

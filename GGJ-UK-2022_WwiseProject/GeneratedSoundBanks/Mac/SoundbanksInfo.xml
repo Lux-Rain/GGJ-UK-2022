@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="1414322434">
+		<SoundBank Id="3161908922" Language="SFX" Hash="2045059037">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -536,7 +536,7 @@
 					<IncludedMemoryFiles>
 						<File Id="986052881" Language="SFX">
 							<ShortName>UI\UI_New_Game_00.wav</ShortName>
-							<Path>SFX\UI\UI_New_Game_00_A53F81EA.wem</Path>
+							<Path>SFX\UI\UI_New_Game_00_F60D6F48.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

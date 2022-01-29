@@ -1299,6 +1299,7 @@
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
@@ -1314,7 +1315,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{164390E9-2F50-483F-925F-2C5FE03A6A0D}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{24BAA5A5-4350-4502-90F5-2ACD5FE9A101}"/>
+									<ObjectRef Name="Ambience" ID="{497E9F73-FC15-4EA1-B8EB-DB85E7598F5D}" WorkUnitID="{24BAA5A5-4350-4502-90F5-2ACD5FE9A101}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -2161,12 +2162,15 @@
 							</ChildrenList>
 						</RandomSequenceContainer>
 						<Sound Name="SFX_Camera_Zoom_In_00" ID="{ED8C30A3-0FCC-40DD-9A22-175FDA6EDC27}" ShortID="611263906">
+							<PropertyList>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{164390E9-2F50-483F-925F-2C5FE03A6A0D}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{24BAA5A5-4350-4502-90F5-2ACD5FE9A101}"/>
+									<ObjectRef Name="Photo" ID="{0CE75555-737B-4405-B001-BEEEDFB74BBF}" WorkUnitID="{24BAA5A5-4350-4502-90F5-2ACD5FE9A101}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -2183,12 +2187,15 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="SFX_Camera_Zoom_Out_00" ID="{FEF6DFEA-26F5-4132-8C5F-836F3C5984BA}" ShortID="115648403">
+							<PropertyList>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{164390E9-2F50-483F-925F-2C5FE03A6A0D}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{24BAA5A5-4350-4502-90F5-2ACD5FE9A101}"/>
+									<ObjectRef Name="Photo" ID="{0CE75555-737B-4405-B001-BEEEDFB74BBF}" WorkUnitID="{24BAA5A5-4350-4502-90F5-2ACD5FE9A101}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>

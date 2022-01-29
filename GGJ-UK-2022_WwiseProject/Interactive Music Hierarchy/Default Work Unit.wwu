@@ -20,7 +20,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-1</Value>
+										<Value>2</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -358,7 +358,7 @@
 								<Property Name="Tempo" Type="Real64" Value="90"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-5</Value>
+										<Value>-7</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -373,7 +373,7 @@
 							<ChildrenList>
 								<MusicSegment Name="MUS_Time_Capsule" ID="{C76DA15E-8B60-4763-921E-9A91D2E21110}" ShortID="584197825">
 									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="42666.6666666667"/>
+										<Property Name="EndPosition" Type="Real64" Value="49792.0858484239"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
