@@ -71,6 +71,15 @@ public partial class @Controls : IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": ""Press(behavior=2)"",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Book"",
+                    ""type"": ""Button"",
+                    ""id"": ""e37ec065-5219-4a34-9c9b-57ced8baa8a0"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -172,6 +181,17 @@ public partial class @Controls : IInputActionCollection2, IDisposable
                     ""action"": ""EnableCamera"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""b73a6f32-8f8e-44bd-aeca-582931609f11"",
+                    ""path"": ""<Keyboard>/tab"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Book"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         },
@@ -250,6 +270,7 @@ public partial class @Controls : IInputActionCollection2, IDisposable
         m_Normal_Run = m_Normal.FindAction("Run", throwIfNotFound: true);
         m_Normal_Jump = m_Normal.FindAction("Jump", throwIfNotFound: true);
         m_Normal_EnableCamera = m_Normal.FindAction("EnableCamera", throwIfNotFound: true);
+        m_Normal_Book = m_Normal.FindAction("Book", throwIfNotFound: true);
         // Camera
         m_Camera = asset.FindActionMap("Camera", throwIfNotFound: true);
         m_Camera_Capture = m_Camera.FindAction("Capture", throwIfNotFound: true);
@@ -318,6 +339,7 @@ public partial class @Controls : IInputActionCollection2, IDisposable
     private readonly InputAction m_Normal_Run;
     private readonly InputAction m_Normal_Jump;
     private readonly InputAction m_Normal_EnableCamera;
+    private readonly InputAction m_Normal_Book;
     public struct NormalActions
     {
         private @Controls m_Wrapper;
@@ -327,6 +349,7 @@ public partial class @Controls : IInputActionCollection2, IDisposable
         public InputAction @Run => m_Wrapper.m_Normal_Run;
         public InputAction @Jump => m_Wrapper.m_Normal_Jump;
         public InputAction @EnableCamera => m_Wrapper.m_Normal_EnableCamera;
+        public InputAction @Book => m_Wrapper.m_Normal_Book;
         public InputActionMap Get() { return m_Wrapper.m_Normal; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -351,6 +374,9 @@ public partial class @Controls : IInputActionCollection2, IDisposable
                 @EnableCamera.started -= m_Wrapper.m_NormalActionsCallbackInterface.OnEnableCamera;
                 @EnableCamera.performed -= m_Wrapper.m_NormalActionsCallbackInterface.OnEnableCamera;
                 @EnableCamera.canceled -= m_Wrapper.m_NormalActionsCallbackInterface.OnEnableCamera;
+                @Book.started -= m_Wrapper.m_NormalActionsCallbackInterface.OnBook;
+                @Book.performed -= m_Wrapper.m_NormalActionsCallbackInterface.OnBook;
+                @Book.canceled -= m_Wrapper.m_NormalActionsCallbackInterface.OnBook;
             }
             m_Wrapper.m_NormalActionsCallbackInterface = instance;
             if (instance != null)
@@ -370,6 +396,9 @@ public partial class @Controls : IInputActionCollection2, IDisposable
                 @EnableCamera.started += instance.OnEnableCamera;
                 @EnableCamera.performed += instance.OnEnableCamera;
                 @EnableCamera.canceled += instance.OnEnableCamera;
+                @Book.started += instance.OnBook;
+                @Book.performed += instance.OnBook;
+                @Book.canceled += instance.OnBook;
             }
         }
     }
@@ -431,6 +460,7 @@ public partial class @Controls : IInputActionCollection2, IDisposable
         void OnRun(InputAction.CallbackContext context);
         void OnJump(InputAction.CallbackContext context);
         void OnEnableCamera(InputAction.CallbackContext context);
+        void OnBook(InputAction.CallbackContext context);
     }
     public interface ICameraActions
     {

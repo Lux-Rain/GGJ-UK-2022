@@ -25,6 +25,7 @@ public class PlayerController : MonoBehaviour
     [Header("Camera")]
     [SerializeField] private Transform camera;
     [SerializeField] private float sensitivity;
+    [SerializeField] private Polaroid _polaroid;
     [Header("Ground")] [SerializeField] private Transform checkGround;
     [SerializeField] private float checkGroundRadius;
     [SerializeField] private LayerMask checkGroundedLayer;
@@ -46,8 +47,20 @@ public class PlayerController : MonoBehaviour
         _input.OnCameraEvent += OnCamera;
         _input.OnRunEvent += OnRun;
         _input.OnLookEvent += OnLook;
+        _input.OnCaptureEvent += Capture;
+        _input.OnBookEvent += OnBook;
     }
-    
+
+    private void OnBook()
+    {
+        UIManager.Instance.SetBook();
+    }
+
+    private void Capture()
+    {
+        _polaroid.Capture();
+    }
+
     private void OnMove(Vector2 obj)
     {
         _velocity = obj;
@@ -65,7 +78,16 @@ public class PlayerController : MonoBehaviour
 
     private void OnCamera(bool obj)
     {
-        throw new NotImplementedException();
+        if (obj)
+        {
+            _input.EnableCamera();
+            _polaroid.EnableCam();
+        }
+        else
+        {
+            _input.DisableCamera();
+            _polaroid.DisableCam();
+        }
     }
 
     private void OnJump()

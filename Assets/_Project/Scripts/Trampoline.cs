@@ -16,7 +16,6 @@ public class Trampoline : MonoBehaviour
             jumpSound.Post(gameObject);
             if (other.transform.parent.TryGetComponent(out PlayerController player))
             {
-                Debug.Log("coucou");
                 player.AddJumpForce(force);
             }
         }
