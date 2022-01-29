@@ -1,31 +1,37 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class SwitchCamera : MonoBehaviour
 {
     public Camera camOne;
     public Camera camTwo;
-   // public KeyCode cameraKey;
-    //public KeyCode screenshotKey;
-    public bool cameraActivated = true;
+    public bool cameraActivated = false;
     public bool switchOccuring = false;
+    public Controls inputActions;
 
-    private void Start()
+    
+
+    private void Awake()
     {
+        inputActions = new Controls();
+        inputActions.Normal.EnableCamera.started += ctx => Switch();
+        // inputActions.Normal.TakeScreenshot.performed += ctx => Screenshot();
+        inputActions.Camera.Capture.performed += ctx => Screenshot();
         camOne.gameObject.SetActive(true);
         camTwo.gameObject.SetActive(false);
+
     }
 
-    // Update is called once per frame
-    void Update()
-    {
+    void OnEnable()
+    { inputActions.Normal.Enable();
+        inputActions.Camera.Enable();
+    }
 
-        if (Input.GetKeyDown(KeyCode.C) && !switchOccuring)
-        {
-            Switch();
-        }
-
+    void OnDisable()
+    { inputActions.Normal.Disable();
+        inputActions.Camera.Disable();
     }
 
 
@@ -47,6 +53,18 @@ public class SwitchCamera : MonoBehaviour
 
         cameraActivated = !cameraActivated;
         switchOccuring = false;
+    }
+
+    void Screenshot()
+    {
+
+        string path = "Assets/Screenshots/";
+        GameObject currentLocation = this.GetComponentInParent<Location>().currentLocation; //room where the player is at the moment
+
+        if (!cameraActivated) {
+            ScreenCapture.CaptureScreenshot(path + currentLocation.name + ".png"); 
+        
+        }
     }
 
 }

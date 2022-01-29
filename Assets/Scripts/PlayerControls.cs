@@ -1,9 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class PlayerControls : MonoBehaviour
 {
+
+
+   // public Controls playerController;
 
     Vector3 pos;
     public float speed;
@@ -17,8 +21,8 @@ public class PlayerControls : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButton("Vertical"))
-            MoveLeft();
+     /*   if (Input.GetButton("Vertical"))
+            MoveLeft();*/
         
     }
 
