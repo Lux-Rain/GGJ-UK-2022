@@ -22,6 +22,7 @@
             private List<Transform> pages = new List<Transform>();
             public void GetImages()
             {
+                RemovePictures();
                 Picture picture;
                 Transform currentPage;
                 for (int i = 0; i < numberOfPages; i++)
@@ -29,11 +30,11 @@
                     currentPage = pages[i];
                     for (int y = 0; y < maxImagePerPages; y++)
                     {
-                        if (images.Count > y + maxImagePerPages*(i))
+                        if (images.Count > y + maxImagePerPages*(i) + this.currentPage * (maxImagePerPages*2))
                         {
                             picture = Instantiate(imagePrefab, currentPage);
                             pictures.Add(picture.transform);
-                            picture.SetPicture(images[y + maxImagePerPages*(i)]);
+                            picture.SetPicture(images[y + maxImagePerPages*(i) + this.currentPage * (maxImagePerPages*2)]);
                         }
                         else
                         {
@@ -41,6 +42,26 @@
                         }
                     }
                 }
+            }
+
+            public void NextPage()
+            {
+                if (pictures.Count >= (maxImagePerPages * 2) * (currentPage + 1))
+                {
+                    currentPage++;
+                }
+                GetImages();
+            }
+
+            public void PreviousPage()
+            {
+                if (currentPage == 0)
+                {
+                    return;
+                }
+
+                currentPage--;
+                GetImages();
             }
 
             public void RemovePictures()
