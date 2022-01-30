@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class PlayerControlsReader : ScriptableObject, Controls.INormalActions, Controls.ICameraActions
+public class PlayerControlsReader : ScriptableObject, Controls.INormalActions, Controls.ICameraActions, Controls.IChatBoxActions
 {
     private Controls _controls;
     public Action<Vector2> OnMoveEvent;
@@ -13,6 +13,7 @@ public class PlayerControlsReader : ScriptableObject, Controls.INormalActions, C
     public Action OnJumpEvent;
     public Action OnBookEvent;
     public Action OnCaptureEvent;
+    public Action OnHideChatBoxEvent;
     public Action<bool> OnCameraEvent;
     public Action<float> OnZoomEvent;
 
@@ -25,6 +26,8 @@ public class PlayerControlsReader : ScriptableObject, Controls.INormalActions, C
     {
         _controls.Normal.SetCallbacks(this);
         _controls.Normal.Enable();
+        _controls.ChatBox.SetCallbacks(this);
+        _controls.ChatBox.Enable(); 
     }
 
     public void DisableControl()
@@ -105,5 +108,13 @@ public class PlayerControlsReader : ScriptableObject, Controls.INormalActions, C
     public void OnZoom(InputAction.CallbackContext context)
     {
         OnZoomEvent?.Invoke(context.ReadValue<float>());
+    }
+
+    public void OnDiscardChatBox(InputAction.CallbackContext context)
+    {
+        if (context.performed)
+        {
+            OnHideChatBoxEvent?.Invoke();
+        }
     }
 }

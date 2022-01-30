@@ -12,6 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd410810a53803249b1e0d85f55051e6, type: 3}
   m_Name: Texture2DCollection
   m_EditorClassIdentifier: 
-  _list:
-  - {fileID: 0}
-  - {fileID: 0}
+  _list: []

@@ -49,6 +49,12 @@ public class PlayerController : MonoBehaviour
         _input.OnLookEvent += OnLook;
         _input.OnCaptureEvent += Capture;
         _input.OnBookEvent += OnBook;
+        _input.OnHideChatBoxEvent += OnHideChatBoxEvent;
+    }
+
+    private void OnHideChatBoxEvent()
+    {
+        UIManager.Instance.RemoveText();
     }
 
     private void OnBook()

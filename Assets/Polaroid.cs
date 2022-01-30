@@ -43,16 +43,23 @@ public class Polaroid : MonoBehaviour
 
         // Render the camera's view.
         renderCam.Render();
+        if (HiddenObject.ChecksAllObject(renderCam))
+        {
+            captureSuccess.Post(gameObject);
+        }
+        else
+        {
+            capture.Post(gameObject);
+        }
+        
         // Make a new texture and read the active Render Texture into it.
         Texture2D image = new Texture2D(renderCam.targetTexture.width, renderCam.targetTexture.height);
         image.ReadPixels(new Rect(0, 0, renderCam.targetTexture.width, renderCam.targetTexture.height), 0, 0);
         image.Apply();
-
         // Replace the original active Render Texture.
         RenderTexture.active = currentRT;
         image.name = $"Picture {pictures.Count}";
         pictures.Add(image);
-        capture.Post(gameObject);
 
     }
 }

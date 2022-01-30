@@ -8,8 +8,11 @@ public class UIManager : MonoBehaviour
     public static UIManager Instance => _instance;
     private static UIManager _instance;
     private BookUI _book;
+    private Chatbox chat;
     [SerializeField]
     private BookUI bookPrefab;
+    [SerializeField]
+    private Chatbox chatPrefab;
 
     private void Awake()
     {
@@ -45,8 +48,23 @@ public class UIManager : MonoBehaviour
     {
         _book.RemovePictures();
         Destroy(_book.gameObject);
+        _book = null;
     }
 
+    public void SendText(string text)
+    {
+        if (chat == null)
+        {
+            chat = Instantiate(chatPrefab);
+        }
+        chat.SetText(text);
+    }
+
+    public void RemoveText()
+    {
+        Destroy(chat.gameObject);
+        chat = null;
+    }
     private void OnDestroy()
     {
         if (_instance == this)

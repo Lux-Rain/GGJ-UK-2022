@@ -242,6 +242,34 @@ public partial class @Controls : IInputActionCollection2, IDisposable
                     ""isPartOfComposite"": false
                 }
             ]
+        },
+        {
+            ""name"": ""ChatBox"",
+            ""id"": ""a8ddf400-7384-4b99-8691-ce40bef3bc95"",
+            ""actions"": [
+                {
+                    ""name"": ""DiscardChatBox"",
+                    ""type"": ""Button"",
+                    ""id"": ""be8328dd-36ba-40c9-a5e9-336706a9f8dd"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                }
+            ],
+            ""bindings"": [
+                {
+                    ""name"": """",
+                    ""id"": ""417b1af9-cbd4-4b49-ad68-93d232d71cb5"",
+                    ""path"": ""<Keyboard>/space"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""DiscardChatBox"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                }
+            ]
         }
     ],
     ""controlSchemes"": [
@@ -275,6 +303,9 @@ public partial class @Controls : IInputActionCollection2, IDisposable
         m_Camera = asset.FindActionMap("Camera", throwIfNotFound: true);
         m_Camera_Capture = m_Camera.FindAction("Capture", throwIfNotFound: true);
         m_Camera_Zoom = m_Camera.FindAction("Zoom", throwIfNotFound: true);
+        // ChatBox
+        m_ChatBox = asset.FindActionMap("ChatBox", throwIfNotFound: true);
+        m_ChatBox_DiscardChatBox = m_ChatBox.FindAction("DiscardChatBox", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -444,6 +475,39 @@ public partial class @Controls : IInputActionCollection2, IDisposable
         }
     }
     public CameraActions @Camera => new CameraActions(this);
+
+    // ChatBox
+    private readonly InputActionMap m_ChatBox;
+    private IChatBoxActions m_ChatBoxActionsCallbackInterface;
+    private readonly InputAction m_ChatBox_DiscardChatBox;
+    public struct ChatBoxActions
+    {
+        private @Controls m_Wrapper;
+        public ChatBoxActions(@Controls wrapper) { m_Wrapper = wrapper; }
+        public InputAction @DiscardChatBox => m_Wrapper.m_ChatBox_DiscardChatBox;
+        public InputActionMap Get() { return m_Wrapper.m_ChatBox; }
+        public void Enable() { Get().Enable(); }
+        public void Disable() { Get().Disable(); }
+        public bool enabled => Get().enabled;
+        public static implicit operator InputActionMap(ChatBoxActions set) { return set.Get(); }
+        public void SetCallbacks(IChatBoxActions instance)
+        {
+            if (m_Wrapper.m_ChatBoxActionsCallbackInterface != null)
+            {
+                @DiscardChatBox.started -= m_Wrapper.m_ChatBoxActionsCallbackInterface.OnDiscardChatBox;
+                @DiscardChatBox.performed -= m_Wrapper.m_ChatBoxActionsCallbackInterface.OnDiscardChatBox;
+                @DiscardChatBox.canceled -= m_Wrapper.m_ChatBoxActionsCallbackInterface.OnDiscardChatBox;
+            }
+            m_Wrapper.m_ChatBoxActionsCallbackInterface = instance;
+            if (instance != null)
+            {
+                @DiscardChatBox.started += instance.OnDiscardChatBox;
+                @DiscardChatBox.performed += instance.OnDiscardChatBox;
+                @DiscardChatBox.canceled += instance.OnDiscardChatBox;
+            }
+        }
+    }
+    public ChatBoxActions @ChatBox => new ChatBoxActions(this);
     private int m_KeyboardSchemeIndex = -1;
     public InputControlScheme KeyboardScheme
     {
@@ -466,5 +530,9 @@ public partial class @Controls : IInputActionCollection2, IDisposable
     {
         void OnCapture(InputAction.CallbackContext context);
         void OnZoom(InputAction.CallbackContext context);
+    }
+    public interface IChatBoxActions
+    {
+        void OnDiscardChatBox(InputAction.CallbackContext context);
     }
 }

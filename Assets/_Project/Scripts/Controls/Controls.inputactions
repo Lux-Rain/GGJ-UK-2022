@@ -220,6 +220,34 @@
                     "isPartOfComposite": false
                 }
             ]
+        },
+        {
+            "name": "ChatBox",
+            "id": "a8ddf400-7384-4b99-8691-ce40bef3bc95",
+            "actions": [
+                {
+                    "name": "DiscardChatBox",
+                    "type": "Button",
+                    "id": "be8328dd-36ba-40c9-a5e9-336706a9f8dd",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "417b1af9-cbd4-4b49-ad68-93d232d71cb5",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "DiscardChatBox",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
         }
     ],
     "controlSchemes": [
