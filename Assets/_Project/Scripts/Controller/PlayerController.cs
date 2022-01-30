@@ -69,6 +69,7 @@ public class PlayerController : MonoBehaviour
 
     private void OnMove(Vector2 obj)
     {
+        _speed = 4;
         _velocity = obj;
     }
     
